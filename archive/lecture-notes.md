@@ -5,4 +5,4 @@ title: "Lecture Notes"
 
 #### Sample
 
-* [Sample](/archives/lecture-notes/sample.pdf)
+* [Sample](/archive/lecture-notes/sample.pdf)
