@@ -1,21 +1,16 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'ARCHIVES', url: '/archives'}
+- {name: 'BIBLIOTHECA', url: '/bibliotheca'}
 - {name: 'CONTACT', url: '/contact'}
 
 archives:
 - {name: 'Mathematics', url: 'mathematics'}
-- {name: 'Classical Mechanics', url: 'classical-mechanics'}
-- {name: 'Electromagnetism', url: 'electromagnetism'}
-- {name: 'Quamtum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Relativity', url: 'relativity'}
-- {name: 'Problems', url: 'problems'}
-- {name: 'PNS Lecture Notes', url: 'pns-lecture-notes'}
+- {name: 'Lecture Notes', url: 'lecture-notes'}
 
 social:
-- {icon: 'google', link: 'mailto:yoonmyeong673@gmail.com'}
-- {icon: 'instagram', link: 'https://www.instagram.com/ym._.673/'}
-- {icon: 'orcid', link: 'https://orcid.org/0000-0003-0959-2113'}
+- {icon: 'google', link: 'mailto:2430412@bsis.hs.kr'}
+- {icon: 'instagram', link: 'https://www.instagram.com/w5xry/'}
+- {icon: 'naver', link: 'https://blog.naver.com/w5xry'}
 
 contacts:
-- {name: 'Myeong Yoon', title: 'Student', interests: 'Theoretical Physics', school: 'Gyeonggi Science High School for the Gifted', number: '40th', phone: '+82 (0)10 3016 7688', email: 'yoonmyeong673@gmail.com'}
+- {name: 'Minho Jeong', title: 'Student', interests: '(Pure) Mathematics', school: 'Busan Il Science High School', number: '11th (Class of 2025)', phone: '+82 10-7932-3846, email: '2430412@bsis.hs.kr'}
