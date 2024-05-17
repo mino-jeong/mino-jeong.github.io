@@ -1,6 +1,6 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'ARCHIVE', url: '/archive'}
+- {name: 'ARCHIVES', url: '/archives'}
 - {name: 'CONTACT', url: '/contact'}
 
 archive:
