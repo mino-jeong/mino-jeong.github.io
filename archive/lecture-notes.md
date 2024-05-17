@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "PNS Lecture Notes"
+title: "Lecture Notes"
 ---
 
 #### Sample
 
-* [Sample](/archives/lecture-notes/Sample.pdf)
+* [Sample](/archives/lecture-notes/sample.pdf)
