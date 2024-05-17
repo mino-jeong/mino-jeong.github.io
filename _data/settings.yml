@@ -4,7 +4,6 @@ menu:
 - {name: 'CONTACT', url: '/contact'}
 
 archive:
-- {name: 'Mathematics', url: 'mathematics'}
 - {name: 'Lecture Notes', url: 'lecture-notes'}
 
 social:
