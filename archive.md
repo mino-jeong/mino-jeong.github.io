@@ -1,4 +1,4 @@
 ---
-layout: archive
-title: "Archive"
+layout: minho-jeong
+title: "Minho Jeong"
 ---
