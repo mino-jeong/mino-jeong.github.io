@@ -2,6 +2,21 @@
 # - title: '[award title]'
 #   description: '[description] ([MMM YYYY])'
 
+# - title: '31st Samsung Humantech Paper Award'
+#   description: '[description] (Feb 2025)'
+
+# - title: '2024 Talent Award of Korea'
+#   description: 'Deputy Prime Minister and Minister of Education of the Republic of Korea (Dec 2024)'
+
+# - title: 'International Youth Math Challenge 2024'
+#   description: '[description] (Nov 2024)'
+
+# - title: '20th Busan Future Scientist Award'
+#   description: '[description] (Nov 2024)'
+
+- title: 'International Astronomy and Astrophysics Competition'
+  description: '(Ongoing)'
+
 - title: "Principal's Commendation"
   description: 'Commendation, President of Busan Il Science High School (May 2023)'
 
