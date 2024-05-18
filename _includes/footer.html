@@ -1,10 +1,11 @@
 <footer class="pt-5 my-5 text-muted border-top">
-  <p>last updated on May 19, 2024</p>
   <div class="row">
     <div class="col-sm-6 text-end social-media-icons">
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
       {% endfor %}
     </div>
+    <p> </p>
+    <p>last updated on May 19, 2024</p>
   </div>
 </footer>
