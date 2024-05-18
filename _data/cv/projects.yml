@@ -1,22 +1,19 @@
-- title: 'Mathematics'
-  description: '[description]'
-
-- title: 'Detecting Fake News Using Transformer Model'
-  description: "Performed with about 95% accuracy in detecting fake news"
+- title: 'Mathematics & Statistics'
+  description: 'Research on the Status and Perceptions of Drug Possession and Use (Mar-Jun 2023)
+                  <br>On Infinite Power Tower Function (Aug-Dec 2022)
+                  <br>Deriving Formulas of Higher Order Equations (Mar-Jul 2022)'
 
 - title: 'Computer Science'
-  description: 'Predicting 2024 US Presidential Election Using Sentiment Analysis (Mar 2024-Present)
-                <br>Detecting Fake News Using Transformer Model'
+  description: "Predicting 2024 US Presidential Election Using Sentiment Analysis (Mar 2024-Present)
+                <br>Detecting Fake News Using Transformer Model (Aug-Dec 2023)
+                <br>Predicting Stock Prices Using VAR and ARIMA Models (Mar-Jul 2023)
+                <br>Building Campus Navigation System Using Dijkstra's Algorithm (Mar-May 2023)
+                <br>Encryption System Using Pen Pressure and Handwriting (Oct-Nov 2022)
+                <br>Efficiency of Algorithms for Computing Roots of Polynomial Equations (Mar-Jul 2022)"
 
 - title: 'Physics'
-  description: ''
+  description: 'Optically Monitoring Blood Glucose for Diabetes (Mar-Dec 2022)'
 
-- title: ''
-  description: ''
-
-- title: ''
-  description: ''
-
-- title: ''
-  description: ''
-
+- title: 'Startup Projects'
+  description: 'Building AI-powered Tea Blending Recommendation System (Sep-Oct 2023)
+                <br>Creating Snorkeling Goggles Using Computer Vision (Aug-Oct 2023)'
