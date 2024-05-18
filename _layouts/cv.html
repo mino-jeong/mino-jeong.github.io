@@ -52,6 +52,28 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
+        <h4 class="border-bottom">Research</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.research %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Projects</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.projects %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
         <h4 class="border-bottom">Experiences</h4>
       </div>
       <div class="col-md-10">
@@ -74,13 +96,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<div class="row g-5 mb-5">
-  <div>
-    <h4 class="border-bottom">Research</h4>
-      {% for item in site.data.research.index %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
-      {% endfor %}
-  </div>
-</div>
-
