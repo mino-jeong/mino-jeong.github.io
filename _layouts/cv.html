@@ -41,10 +41,10 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Honors</h4>
+        <h4 class="border-bottom">Research</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.honors %}
+        {% for section in site.data.cv.research %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -52,10 +52,10 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Research</h4>
+        <h4 class="border-bottom">Experiences</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.research %}
+        {% for section in site.data.cv.experiences %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -74,10 +74,21 @@ layout: default
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Experiences</h4>
+        <h4 class="border-bottom">Honors</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.experiences %}
+        {% for section in site.data.cv.honors %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Scholarships</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.scholarships %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
