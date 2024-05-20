@@ -3,7 +3,7 @@ menu:
 - {name: 'ARCHIVES', url: '/archives'}
 - {name: 'CONTACT', url: '/contact'}
 
-archive:
+archives:
 - {name: 'Lecture Notes', url: 'lecture-notes'}
 
 social:
