@@ -4,8 +4,8 @@ menu:
 - {name: 'CONTACT', url: '/contact'}
 
 archives:
-- {name: 'Mathematics', url: 'mathematics'}
-- {name: 'Lecture Notes', url: 'lecture-notes'}
+- {name: 'Mathematics', url: '/mathematics'}
+- {name: 'Lecture Notes', url: '/lecture-notes'}
 
 social:
 - {icon: 'google', link: 'mailto:2430412@bsis.hs.kr'}
