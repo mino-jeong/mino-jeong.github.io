@@ -1,9 +1,9 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'ARCHIVES', url: '/archives'}
+- {name: 'BIBLIOTHECA', url: '/bibliotheca'}
 - {name: 'CONTACT', url: '/contact'}
 
-archives:
+bibliotheca:
 - {name: 'Mathematics', url: '/mathematics'}
 - {name: 'Lecture Notes', url: '/lecture-notes'}
 
