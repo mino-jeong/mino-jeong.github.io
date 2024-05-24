@@ -2,7 +2,6 @@ menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
 - {name: 'BIBLIOTHECA', url: '/bibliotheca'}
 - {name: 'CONTACT', url: '/contact'}
-- {name: 'APPLICATION', url: '/application'}
 
 bibliotheca:
 - {name: 'Mathematics', url: '/mathematics'}
