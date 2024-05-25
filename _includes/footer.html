@@ -1,10 +1,27 @@
-<footer class="pt-5 my-5 text-muted border-top" style="text-align: center; margin:0 auto;">
-  <div class="row">
-    <div class="col-sm-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        <center><a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a></center>
-      {% endfor %}
-    </div>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+    .footer-list-item {
+      list-style-type: none;
+      display: inline-block;
+    }
+
+    .footer-list {
+      padding: 50px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="footer">
+    <ul class="footer-list">
+      <li class="footer-list-item"><a href="mailto:2430412@bsis.hs.kr" class="ms-3 fs-5"><i class="fab fa-google"></i></a></li>
+      <li class="footer-list-item"><a href="https://orcid.org/0009-0000-6873-5271" class="ms-3 fs-5"><i class="fab fa-orcid"></i></a></li>
+      <li class="footer-list-item"><a href="https://www.instagram.com/w5xry" class="ms-3 fs-5"><i class="fab fa-instagram"></i></a></li>
+    </ul>
   </div>
-  <small><br>Copyright &copy; 2024 Minho Jeong. All rights reserved.</small>
-</footer>
+</body>
+</html>
