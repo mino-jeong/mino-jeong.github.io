@@ -1,9 +1,9 @@
-<footer class="pt-5 my-5 text-muted border-top" style="align-items: center; text-align: center; justify-content:center;">
+<footer class="pt-5 my-5 text-muted border-top" style="align-items: center; text-align: center; justify-content: center;">
   <tfoot align="center">
     <tr>
       <div class="col-sm-6 text-end social-media-icons">
         {% for item in site.data.settings.social %}
-          <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+          <li style="display: inline-block;"><a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a></li>
         {% endfor %}
       </div>
     </tr>
