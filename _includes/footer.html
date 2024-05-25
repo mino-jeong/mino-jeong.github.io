@@ -1,12 +1,23 @@
+<style>
+  .footer-list-item {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .footer-list {
+    padding: 50px 0;
+    text-align: center;
+  }
+</style>
+
 <footer class="pt-5 my-5 text-muted border-top" style="align-items: center; text-align: center; justify-content: center;">
-  <tfoot align="center">
-    <tr>
-      <div class="col-sm-6 text-end social-media-icons">
+  <div class="footer">
+    <div class="col-sm-6 text-end social-media-icons">
+      <ul class="footer-list">
         {% for item in site.data.settings.social %}
-          <li style="display: inline-block;"><a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a></li>
+          <li class="footer-list-item"><a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a></li>
         {% endfor %}
-      </div>
-    </tr>
-  </tfoot>
+      </ul>
+    </div>
+  </div>
   <small><br>Copyright &copy; 2024 Minho Jeong. All rights reserved.</small>
 </footer>
