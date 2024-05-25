@@ -3,5 +3,5 @@ layout: home
 title: "Home"
 ---
 
-<p style="line-height:1.5"><strong>ABOUT ME</strong></p>
-I am Minho Jeong, a senior at Busan Il Science High School</a>, expected to graduate in February 2025. My mathematical research interests lie broadly in pure mathematics. Currently, I am attempting to prove/disprove the Wall-Sun-Sum prime conjecture (also known as Fibonacci-Wieferich prime conjecture).
+<p style="line-height:1.2"><strong>ABOUT ME</strong></p>
+<i><u>안녕하세요!</u></i> My name is Minho Jeong, and my research interests lie broadly in pure mathematics. Especially, analytical number theory is fascinating me these days, and I am attempting to prove or disprove the Wall-Sun-Sum prime conjecture, a.k.a. Fibonacci-Wieferich prime conjecture. When I'm not in the lab, you'll find me on the court playing basketball or tennis, the perfect escape from everything that keeps me busy. If you'd like to collaborate on research with me, or just shoot some hoops, feel free to hit me up!
