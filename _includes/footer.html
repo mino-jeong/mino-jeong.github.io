@@ -1,10 +1,10 @@
-<footer class="pt-5 my-5 text-muted border-top">
+<footer class="pt-5 my-5 text-muted border-top" style="text-align: center; margin:0 auto;">
   <div class="row">
     <div class="col-sm-6 text-end social-media-icons">
-      <p>{% for item in site.data.settings.social %}
+      {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}</p>
+      {% endfor %}
     </div>
   </div>
-  <p><small><br>Copyright &copy; 2024 Minho Jeong. All rights reserved.</small></p>
+  <small><br>Copyright &copy; 2024 Minho Jeong. All rights reserved.</small>
 </footer>
