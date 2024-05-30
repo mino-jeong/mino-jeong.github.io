@@ -3,7 +3,7 @@ menu:
 - {name: 'ARCHIVE', url: '/archive'}
 - {name: 'CONTACT', url: '/contact'}
 
-bibliotheca:
+archive:
 - {name: 'Mathematics', url: '/mathematics'}
 - {name: 'Lecture Notes', url: '/lecture-notes'}
 
