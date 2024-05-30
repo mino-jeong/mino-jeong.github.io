@@ -1,6 +1,6 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'RESEARCH & PROJECTS', url: '/research-projects'}
+- {name: 'ARCHIVE', url: '/archive'}
 - {name: 'CONTACT', url: '/contact'}
 
 bibliotheca:
