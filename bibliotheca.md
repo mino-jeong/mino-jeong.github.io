@@ -1,4 +1,0 @@
----
-layout: bibliotheca
-title: "bibliotheca"
----
