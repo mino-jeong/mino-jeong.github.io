@@ -10,7 +10,6 @@ bibliotheca:
 social:
 - {icon: 'google', link: 'mailto:2430412@bsis.hs.kr'}
 - {icon: 'orcid', link: 'https://orcid.org/0009-0000-6873-5271'}
-- {icon: 'instagram', link: 'https://www.instagram.com/w5xry/'}
 
 contacts:
 - {name: 'Minho Jeong', title: 'Student & Amateur Mathematician', school: 'Busan Il Science High School', number: '11th (Class of 2025)', phone: '+82 10-7932-3846', email: '2430412@bsis.hs.kr'}
