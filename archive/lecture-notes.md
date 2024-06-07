@@ -3,6 +3,6 @@ layout: page
 title: "Lecture Notes"
 ---
 
-#### Tropical Calculus
+#### NewFile
 
-* [Tropical Derivatives and Antiderivatives (PPT, ko)](/archive/lecture-notes/tropical-calculus-ppt.pdf)
+* [NewFile](/archive/lecture-notes/NewFile)
