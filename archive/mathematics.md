@@ -7,6 +7,8 @@ title: "Mathematics"
 
 * [A Study on the Solution of the Wave Equation Simulating the Lateral Vibration of Elastic Strings](/archive/mathematics/PDE-research-2023.pdf)
 
+<br>
+
 #### Tropical Calculus
 
 * [Tropical Derivatives and Antiderivatives (KR)](/archive/mathematics/tropical-calculus-presentation.pdf)
