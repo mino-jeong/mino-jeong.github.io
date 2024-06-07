@@ -9,5 +9,5 @@ title: "Mathematics"
 
 #### Tropical Calculus
 
-* [Tropical Derivatives and Antiderivatives (KR)](/archive/mathematics/tropical-calculus-ppt.pdf)
+* [Tropical Derivatives and Antiderivatives (KR)](/archive/mathematics/tropical-calculus-presentation.pdf)
 * [Appendix for Tropical Calculus (EN)](/archive/lecture-notes/tropical-calculus-appendix.pdf)
