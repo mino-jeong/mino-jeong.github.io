@@ -13,3 +13,4 @@ title: "Mathematics"
 
 * [Tropical Derivatives and Antiderivatives (KR)](/archive/mathematics/tropical-calculus-presentation.pdf)
 * [Appendix for Tropical Calculus (EN)](/archive/mathematics/tropical-calculus-appendix.pdf)
+* [Wang, Jingping. <it>Tropical Derivatives and Antiderivatives.</it> 2013. National Chengchi University, Master's Thesis. (EN/CN)](/archive/mathematics/tropical-calculus-supplement.pdf)
