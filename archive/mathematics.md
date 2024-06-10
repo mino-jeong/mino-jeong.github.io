@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Mathematics"
+redirect_from:
+  - /613
 ---
 
 #### Partial Differential Equations
