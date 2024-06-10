@@ -2,5 +2,5 @@
 layout: redirected
 sitemap: false
 permalink: /613
-redirect_to:  /archive/mathematics
+redirect_to:  /archive//mathematics
 ---
