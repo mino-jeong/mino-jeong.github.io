@@ -3,6 +3,10 @@ layout: page
 title: "Lecture Notes"
 ---
 
-#### NewFile
+#### Honors Mathematics II (Spring 2023)
 
-* [NewFile](/archive/lecture-notes/NewFile)
+* [Probability Density Function](/archive/lecture-notes/probability-density-function.pdf)
+
+#### Advanced Mathematics I (Fall 2023)
+
+* [Proof of Euler Formula](/archive/lecture-notes/euler-formula.pdf)
