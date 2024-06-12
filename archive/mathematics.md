@@ -11,6 +11,6 @@ title: "Mathematics"
 
 #### Tropical Calculus
 
-* [Tropical Derivatives and Antiderivatives (ko)](/archive/mathematics/tropical-calculus-presentation-v3.pdf)
+* [Tropical Derivatives and Antiderivatives (ko)](/archive/mathematics/tropical-calculus-presentation-v4.pdf)
 * [Appendix for Tropical Calculus](/archive/mathematics/tropical-calculus-appendix-v2.pdf)
 * [Reference #1 (Wang)](/archive/mathematics/tropical-calculus-supplement-1.pdf)
