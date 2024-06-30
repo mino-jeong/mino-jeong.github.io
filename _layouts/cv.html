@@ -175,3 +175,31 @@ layout: default
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll("#sidebar .nav-link");
+    const sections = [];
+
+    navLinks.forEach(link => {
+      const section = document.querySelector(link.getAttribute("href"));
+      if (section) {
+        sections.push(section);
+      }
+    });
+
+    function onScroll() {
+      const scrollPos = window.scrollY + window.innerHeight / 2;
+
+      sections.forEach((section, index) => {
+        if (section.offsetTop <= scrollPos && (section.offsetTop + section.offsetHeight) > scrollPos) {
+          navLinks.forEach(link => link.classList.remove("active"));
+          navLinks[index].classList.add("active");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", onScroll);
+    onScroll();
+  });
+</script>
