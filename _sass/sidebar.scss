@@ -1,10 +1,13 @@
 /* CSS for the fixed sidebar */
 #sidebar {
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
+  position: fixed;
   top: 0;
+  right: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100%;
   padding-top: 1rem;
-  margin-left: 1rem; /* Adjusted to left margin */
+  background-color: #f8f9fa;
+  overflow-y: auto; /* Add vertical scrolling if necessary */
 }
 
 #sidebar .nav-link {
@@ -15,6 +18,6 @@
 }
 
 #sidebar .nav-link:hover {
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
   color: #007bff;
 }
