@@ -8,6 +8,7 @@
   padding-top: 1rem;
   background-color: #f8f9fa;
   overflow-y: auto; /* Add vertical scrolling if necessary */
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow to separate from the main content */
 }
 
 #sidebar .nav-link {
@@ -20,4 +21,9 @@
 #sidebar .nav-link:hover {
   background-color: #e9ecef;
   color: #007bff;
+}
+
+/* Adjust the main content margin to prevent overlap with the sidebar */
+.container {
+  margin-right: 220px; /* Slightly more than sidebar width for spacing */
 }
