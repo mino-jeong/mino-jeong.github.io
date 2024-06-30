@@ -1,10 +1,17 @@
 /* CSS for the fixed sidebar */
 #sidebar {
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
-  top: 0;
-  padding-top: 1rem;
-  margin-left: 1rem; /* Adjusted to left margin */
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    display: block;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 #sidebar .nav-link {
@@ -18,4 +25,3 @@
   background-color: #f8f9fa;
   color: #007bff;
 }
-
