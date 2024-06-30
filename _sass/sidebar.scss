@@ -1,10 +1,10 @@
-/* CSS for the fixed sidebar on the right side */
+/* CSS for the fixed sidebar */
 #sidebar {
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
   padding-top: 1rem;
-  margin-right: 1rem; /* Adjusted to right margin */
+  margin-left: 1rem; /* Adjusted to left margin */
 }
 
 #sidebar .nav-link {
@@ -19,7 +19,3 @@
   color: #007bff;
 }
 
-#sidebar .nav-link.active {
-  font-weight: bold;
-  color: #34A392;
-}
