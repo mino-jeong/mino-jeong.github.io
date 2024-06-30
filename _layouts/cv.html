@@ -191,8 +191,7 @@ layout: default
     function onScroll() {
       const scrollPos = window.scrollY + window.innerHeight / 2;
 
-      let currentSectionIndex = sections.length - 1;
-
+      let currentSectionIndex = 0;
       sections.forEach((section, index) => {
         if (section.offsetTop <= scrollPos) {
           currentSectionIndex = index;
@@ -201,6 +200,12 @@ layout: default
 
       navLinks.forEach(link => link.classList.remove("active"));
       navLinks[currentSectionIndex].classList.add("active");
+
+      navLinks.forEach(link => {
+        link.style.color = "";
+      });
+
+      navLinks[currentSectionIndex].style.color = "#34A392";
     }
 
     window.addEventListener("scroll", onScroll);
