@@ -14,10 +14,10 @@
   description: '(설명)'
   institution: 'IAAC / Edu.Harbour'
 
-- title: '2. (활동명)'
+- title: '2. 미국 수학 경시대회 (American Mathematics Contest 12, American Invitational Mathematics Examination)'
   date: '(활동기간)'
-  description: '(설명)'
-  institution: '(활동/발행기관)'
+  description: 'IMO 미국 국가대표 선발전으로, AMC12에서 상위 5%의 성적으로 외국인으로서 참가할 수 있는 단계까지 진출함.'
+  institution: 'Mathematical Association of America'
 
 - title: '3. (활동명)'
   date: '(활동기간)'
