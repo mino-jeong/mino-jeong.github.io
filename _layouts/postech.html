@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Postech Presidential Fellowship</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Documents</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.postech.document %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.date }}</p>
+          <p>{{ section.description }}</p>
+          <p>{{ section.institution }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
