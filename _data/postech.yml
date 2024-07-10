@@ -4,8 +4,14 @@
 #  description: '설명은 50자 이내로'
 #  institution: '활동기관 혹은 발행기관'
 
-- title: '1. (활동명)'
-  date: '(활동기간)'
+- title: '<font color1. 국제 천문학 및 천체물리학 대회 (International Astronomy and Astrophysics Competition)'
+  date: '2024년 2월 3일 ~ 2024년 6월 25일'
+  description: '(설명)'
+  institution: '(활동/발행기관)'
+
+
+- title: '1. 국제 천문학 및 천체물리학 대회 (International Astronomy and Astrophysics Competition)'
+  date: '2024년 2월 3일 ~ 2024년 6월 25일'
   description: '(설명)'
   institution: '(활동/발행기관)'
 
