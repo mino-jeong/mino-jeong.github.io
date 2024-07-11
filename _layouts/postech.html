@@ -36,12 +36,24 @@ layout: default
     var timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
 
     var kstOptions = { ...dateOptions, ...timeOptions, timeZone: 'Asia/Seoul' };
-    var formattedKST = new Intl.DateTimeFormat('en-US', kstOptions).format(lastModified);
+    var formattedDatePartsKST = Intl.DateTimeFormat('en-US', kstOptions).format(lastModified).replace(',', '').split(' ');
+    var monthKST = formattedDatePartsKST[0] + '.';
+    var dayKST = formattedDatePartsKST[1] + ',';
+    var yearKST = formattedDatePartsKST[2];
 
     var estOptions = { ...dateOptions, ...timeOptions, timeZone: 'America/New_York', timeZoneName: 'short' };
-    var formattedEST = new Intl.DateTimeFormat('en-US', estOptions).format(lastModified);
+    var formattedDatePartsEST = Intl.DateTimeFormat('en-US', estOptions).format(lastModified).replace(',', '').split(' ');
+    var monthEST = formattedDatePartsEST[0] + '.';
+    var dayEST = formattedDatePartsEST[1] + ',';
+    var yearEST = formattedDatePartsEST[2];
 
-    document.getElementById("last-updated-kst").textContent = "last updated on " + formattedKST.replace(',', '') + " KST";
+    var formattedKST = new Intl.DateTimeFormat('en-US', kstOptions).format(lastModified);
+    var formattedEST = new Intl.DateTimeFormat('en-US', estOptions).format(lastModified);
+    
+    var formattedDateKST = monthKST + ' ' + dayKST + ' ' + yearKST + " at " + formattedTimeKST + " KST";
+    var formattedDateEST = month + ' ' + day + ' ' + year + " at " + formattedTimeEST;
+    
+    document.getElementById("last-updated-kst").textContent = "last updated on " + formattedDateKST;
     document.getElementById("last-updated-est").textContent = "(" + formattedEST.replace(',', '') + ")";
   });
 </script>
