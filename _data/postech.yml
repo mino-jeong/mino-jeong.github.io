@@ -9,27 +9,27 @@
   description: '<font color="#808080">본 활동은 ~이며, 활동 내에서 ~ 역할을 수행하였음</font>'
   institution: '<font color="#808080">OO협의회</font>'
 
-- title: '1. 국제 천문학 및 천체물리학 대회 (International Astronomy and Astrophysics Competition)'
+- title: '1. 2022 POSTECH 동계 이공계 학과대탐험'
+  date: '2023년 1월 16일 ~ 2023년 1월 19일'
+  description: '(설명)'
+  institution: '포항공과대학교'
+
+- title: '2. 국제 천문학 및 천체물리학 대회 (International Astronomy and Astrophysics Competition)'
   date: '2024년 2월 3일 ~ 2024년 6월 25일'
   description: '(설명)'
   institution: 'IAAC / Edu.Harbour'
 
-- title: '2. 미국 수학 경시대회 (American Mathematics Contest 12, American Invitational Mathematics Examination)'
+- title: '3. 미국 수학 경시대회 (American Mathematics Contest 12, American Invitational Mathematics Examination)'
   date: '(활동기간)'
   description: 'IMO 미국 국가대표 선발전으로, AMC12에서 상위 5%의 성적으로 외국인으로서 참가할 수 있는 단계까지 진출함.'
-  institution: 'Mathematical Association of America'
+  institution: '미국 수학협회 (Mathematical Association of America)'
 
-- title: '3. SAKURA SCIENCE High School Program'
+- title: '4. SAKURA SCIENCE High School Program'
   date: '2023년 5월 14일 ~ 2023년 5월 20일'
   description: '(설명)'
-  institution: '(활동/발행기관)'
+  institution: '일본 과학기술진흥기구 (Japan Science and Technology Agency)'
 
-- title: '4. (활동명)'
-  date: '(활동기간)'
-  description: '(설명)'
-  institution: '(활동/발행기관)'
-
-- title: '5. (활동명)'
+- title: '5. 제1회 '
   date: '(활동기간)'
   description: '(설명)'
   institution: '(활동/발행기관)'
