@@ -24,45 +24,24 @@ layout: default
   </div>
 </div>
 
----
-layout: default
----
-
-{{ content }}
-
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Postech Presidential Fellowship</h3>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Activities & Honors</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.postech %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.date }}</p>
-          <p>{{ section.description }}</p>
-          <p>{{ section.institution }}</p>
-          <br>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
-
 <div id="last-updated-container" class="text-end fst-italic">
-  <p id="last-updated-kst">last updated on {{ site.config.postech_last_modified_time }} KST</p>
+  <p id="last-updated-kst"></p>
   <p id="last-updated-est"></p>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var kstTimeStr = "{{ site.config.postech_last_modified_time }}";
-    var kstTime = new Date(kstTimeStr + " +0900");
+    var lastModified = new Date(document.lastModified);
+    var dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+    var timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
 
-    var estOptions = { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'America/New_York', timeZoneName: 'short' };
-    var formattedEST = new Intl.DateTimeFormat('en-US', estOptions).format(kstTime);
+    var kstOptions = { ...dateOptions, ...timeOptions, timeZone: 'Asia/Seoul' };
+    var formattedKST = new Intl.DateTimeFormat('en-US', kstOptions).format(lastModified);
 
+    var estOptions = { ...dateOptions, ...timeOptions, timeZone: 'America/New_York', timeZoneName: 'short' };
+    var formattedEST = new Intl.DateTimeFormat('en-US', estOptions).format(lastModified);
+
+    document.getElementById("last-updated-kst").textContent = "last updated on " + formattedKST.replace(',', '') + " KST";
     document.getElementById("last-updated-est").textContent = "(" + formattedEST.replace(',', '') + ")";
   });
 </script>
@@ -73,4 +52,3 @@ layout: default
     line-height: 1;
   }
 </style>
-
