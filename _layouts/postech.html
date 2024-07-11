@@ -24,7 +24,8 @@ layout: default
   </div>
 </div>
 
-<p id="last-updated" class="text-end fst-italic"></p>
+<p id="last-updated-kst" class="text-end fst-italic"></p>
+<p id="last-updated-est" class="text-end fst-italic"></p>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -32,15 +33,16 @@ layout: default
     var dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
     var timeOptions = { hour: '2-digit', minute: '2-digit', hour12: false };
 
-    var formattedDateParts = lastModified.toLocaleDateString('en-US', dateOptions).replace(',', '').split(' ');
-    var month = formattedDateParts[0] + '.';
-    var day = formattedDateParts[1] + ',';
-    var year = formattedDateParts[2];
+    // Formatting KST
+    var kstOptions = { ...dateOptions, ...timeOptions, timeZone: 'Asia/Seoul' };
+    var formattedKST = new Intl.DateTimeFormat('en-US', kstOptions).format(lastModified);
 
-    var formattedTime = lastModified.toLocaleTimeString('en-US', timeOptions);
+    // Formatting EST/EDT
+    var estOptions = { ...dateOptions, ...timeOptions, timeZone: 'America/New_York', timeZoneName: 'short' };
+    var formattedEST = new Intl.DateTimeFormat('en-US', estOptions).format(lastModified);
 
-    var formattedDate = month + ' ' + day + ' ' + year + " at " + formattedTime + " KST";
-
-    document.getElementById("last-updated").textContent = "last updated on " + formattedDate;
+    // Adding the KST and EST/EDT suffixes
+    document.getElementById("last-updated-kst").textContent = "last updated on " + formattedKST.replace(',', '') + " KST";
+    document.getElementById("last-updated-est").textContent = "(" + formattedEST.replace(',', '') + ")";
   });
 </script>
