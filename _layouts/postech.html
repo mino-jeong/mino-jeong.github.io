@@ -29,8 +29,8 @@ layout: default
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var lastModified = new Date(document.lastModified);
-    var options = { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
-    var formattedDate = lastModified.toLocaleDateString('en-US', options).replace(',', '') + ", " + lastModified.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+    var options = { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false };
+    var formattedDate = lastModified.toLocaleDateString('en-US', options).replace(',', '') + " at " + lastModified.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false }) + " KST";
     document.getElementById("last-updated").textContent = "last updated on " + formattedDate;
   });
 </script>
