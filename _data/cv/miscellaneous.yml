@@ -1,8 +1,8 @@
 - title: 'Languages'
-  description: 'Korean (native tongue), English (proficient), Chinese (novice), Spanish (novice)'
+  description: 'Korean (native tongue), English (proficient), Chinese (intermediate), Spanish (novice)'
 
 - title: 'Programming'
-  description: 'C, C++, Python'
+  description: 'Python, C, C++'
 
 - title: 'Writing'
   description: 'LaTeX, Microsoft Word'
