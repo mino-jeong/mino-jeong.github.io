@@ -10,9 +10,6 @@ archive:
 data:
 - {name: 'PhyPhox Experiment', url: '/may-2024-phyphox'}
 
-postech:
-- {name: 'POSTECH', url: '/postech'}
-
 social:
 - {icon: 'google', link: 'mailto:2430412@bsis.hs.kr'}
 - {icon: 'orcid', link: 'https://orcid.org/0009-0000-6873-5271'}
