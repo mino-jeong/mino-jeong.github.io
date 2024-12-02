@@ -1,4 +1,0 @@
----
-layout: postech
-title: "POSTECH"
----
