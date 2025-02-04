@@ -11,7 +11,7 @@ data:
 - {name: 'PhyPhox Experiment', url: '/may-2024-phyphox'}
 
 social:
-- {icon: 'google', link: 'mailto:2430412@bsis.hs.kr'}
+- {icon: 'kaist', link: 'mailto:mjeong@kaist.ac.kr'}
 - {icon: 'orcid', link: 'https://orcid.org/0009-0000-6873-5271'}
 
 contacts:
