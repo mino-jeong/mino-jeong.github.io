@@ -1,10 +1,12 @@
 #- title: '[Admitted U.S. College]'
 #  description: '[Degree] in [Intended Major] (Matriculating Sept 2025)'
 
+#- title: 'Korea Advanced Institute of Science and Technology (KAIST)'
+#  description: 'Completed coursework in Mathematical Sciences (Feb 2025–Aug 2025)<br>KAIST Presidential Fellow'
+
 - title: 'Korea Advanced Institute of Science and Technology (KAIST)'
   description: 'B.S. in Mathematical Sciences (Feb 2025–Present)<br>
-                <font color='grey'>Completed coursework in Mathematical Sciences (Feb 2025–Aug 2025 (expected))</font><br>
-                KAIST Presidential Fellow'
+  KAIST Presidential Fellow'
 
 - title: 'Busanil Science High School'
   description: 'High School Diploma (Mar 2022–Feb 2025)'
