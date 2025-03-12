@@ -1,15 +1,12 @@
-#- title: '[Admitted U.S. College]'
-#  description: '[Degree] in [Intended Major] (Matriculating Sept 2025)'
+- title: '[Degree Type]'
+  description: '[University Name]<br>
+  [(Intended) Major]<br>
+  [Duration]'
 
 #- title: 'Korea Advanced Institute of Science and Technology'
 #  description: 'Completed coursework in Mathematical Sciences (Feb 2025–Aug 2025)<br>KAIST Presidential Fellow'
 
-- title: 'Bachelor of Science (in Mathematical Sciences)'
-  description: '<p>Korea Advanced Institute of Science and Technology<br>
-  <i>KAIST Presidential Fellow</i></p>
-  <p>Feb 2025–Present</p>'
-
-- title: 'Bachelor of Science'
+- title: 'Bachelor of Science (B.S.)'
   description: 'Korea Advanced Institute of Science and Technology<br>
   Mathematical Sciences (intended)<br>
   <i>KAIST Presidential Fellow</i><br>
