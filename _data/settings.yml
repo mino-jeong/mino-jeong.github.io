@@ -11,7 +11,7 @@ admission:
 - {name: 'College Admissions', url: '/adm'}
 
 data:
-- {name: 'PhyPhox (May 2024)', url: '/may-2024-phyphox'}
+- {name: 'phyphox (May 2024)', url: '/may-2024-phyphox'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
