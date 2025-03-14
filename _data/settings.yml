@@ -2,13 +2,11 @@ menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
 - {name: 'ARCHIVE', url: '/archive'}
 - {name: 'CONTACT', url: '/contact'}
+- {name: 'College Admissions', url: '/adm'}
 
 archive:
 - {name: 'Mathematics', url: '/mathematics'}
 - {name: 'Lecture Notes', url: '/lecture-notes'}
-
-admission:
-- {name: 'College Admissions', url: '/adm'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
