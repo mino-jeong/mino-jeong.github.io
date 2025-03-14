@@ -4,8 +4,11 @@ menu:
 - {name: 'CONTACT', url: '/contact'}
 
 archive:
-- {name: 'Mathematics', url: '/mathematics'}
-- {name: 'Lecture Notes', url: '/lecture-notes'}
+- {name: 'Mathematics', url: '/math'}
+- {name: 'Lecture Notes', url: '/notes'}
+
+admission:
+- {name: 'College Admissions', url: '/adm'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
