@@ -7,9 +7,6 @@
 - title: 'Brown University'
   description: 'Pending'
 
-- title: 'Carleton College'
-  description: 'Rejected'
-
 - title: 'Columbia University'
   description: 'Pending'
 
@@ -23,9 +20,6 @@
   description: 'Pending'
 
 - title: 'Harvard University'
-  description: 'Pending'
-
-- title: 'Massachusetts Institute of Technology'
   description: 'Pending'
 
 - title: 'Northwestern University'
