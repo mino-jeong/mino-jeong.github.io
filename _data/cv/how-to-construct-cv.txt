@@ -1,0 +1,18 @@
+ 1.  Contact Information
+ 2.  Research Objective or Personal Profile
+ 3.  Education Section
+ 4.  Professional Appointments
+ 5.  Research Publications
+ 6.  Awards and Honors
+ 7.  Grants and Fellowships
+ 8.  Conferences Attended
+ 9.  Teaching Experience
+10.  Research Experience
+11.  Additional Activities
+12.  Languages and Skills
+13.  References
+
+ref: wordvice.com
+  
+---
+
