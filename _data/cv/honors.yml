@@ -1,4 +1,3 @@
-# format:
 # - title: '[award title]'
 #   description: '[description] ([MMM YYYY])'
 
@@ -8,12 +7,6 @@
 
 - title: 'American Mathematics Competition 2024'
   description: 'Certificate of Excellence, Mathematical Association of America President & the AMC 10/12 Co Editor in Chief (Dec 2024)'
-
-#- title: 'Commencement Award'
-#  description: 'Award, Chairman of Saha District Council (Feb 2025)'
-
-#- title: 'Exploratory Talent Award'
-#  description: 'Award, Principal of Busan Il Science High School (Feb 2025)'
 
 - title: '2024 Talent Award of Korea'
   description: 'Award, Deputy Prime Minister and Minister of Education of the Republic of Korea (Dec 2024)'
@@ -30,36 +23,3 @@
 
 - title: "Childfund Korea's Plaque of Appreciation"
   description: 'Plaque, Chairman of Childfund Korea (May 2024)'
-
-#- title: 'Be There Certificate'
-#  description: 'Certificate of Completion, Founder of Jack.org & Co-Founder of Born This Way Foundation (May 2024)'
-
-#- title: 'BSIS Research & Education 2023'
-#  description: 'Outstanding Research Award, Department of Creativity and Science, Busan Il Science High School (Dec 2023)'
-
-#- title: 'Nexon Youth Programming Challenge 2023'
-#  description: 'Certificate of Completion, NEXON Company, Ltd. (Aug 2023)'
-
-#- title: "Principal's Commendation"
-#  description: 'Commendation, Principal of Busan Il Science High School (May 2023)'
-
-- title: 'American Invitational Mathematics Examination 2023'
-  description: 'Certificate of Participation, MAA Senior Director for Programs & AIME Co Editor in Chief (Feb 2023)'
-
-#- title: 'Korea Bebras Challenge 2022'
-#  description: 'Certificate of Participation, President of Bebras Korea (Dec 2022)'
-
-#- title: 'BSIS Research & Education 2022'
-#  description: 'Outstanding Research Award, Department of Creativity and Science, Busan Il Science High School (Dec 2022)'
-
-- title: 'American Mathematics Competition 2022'
-  description: 'Certificate of Distinction, Mathematical Association of America President & the AMC 10/12 Co Editor in Chief (Dec 2022)'
-
-#- title: 'Nexon Youth Programming Challenge 2022'
-#  description: 'Certificate of Completion, NEXON Company, Ltd. (Aug 2022)'
-
-#- title: 'Commencement Award'
-#  description: 'Award, Principal of Dasong Middle School Executive Commitee (Feb 2022)'
-
-#- title: 'Honorary Award'
-#  description: 'Award, Principal of Dasong Middle School (Feb 2022)'
