@@ -1,17 +1,11 @@
-- title: '[Degree Type]'
-  description: '[University Name]<br>
-  [(Intended) Major]<br>
-  [Date]'
-
 #- title: 'Korea Advanced Institute of Science and Technology'
 #  description: 'Completed coursework in Mathematical Sciences (Feb 2025–Aug 2025)<br>KAIST Presidential Fellow'
 
-- title: 'Bachelor of Science (B.S.)'
-  description: 'Korea Advanced Institute of Science and Technology<br>
-  Mathematical Sciences (intended)<br>
+- title: 'Korea Advanced Institute of Science and Technology (KAIST)'
+  description: 'B.S. in Mathematical Sciences (Intended)<br>
   <i>KAIST Presidential Fellow</i><br>
   Feb 2025–Present'
 
-- title: 'High School Diploma'
-  description: 'Busanil Science High School<br>
+- title: 'Busanil Science High School'
+  description: 'High School Diploma<br>
   Mar 2022–Feb 2025'
