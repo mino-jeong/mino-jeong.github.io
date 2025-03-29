@@ -1,4 +1,4 @@
 ---
-layout: adm
-title: "College Admissions"
+layout: acceptances
+title: "Acceptances"
 ---
