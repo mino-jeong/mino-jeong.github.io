@@ -1,21 +1,14 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'ARCHIVE', url: '/archive'}
+- {name: 'COURSEWORK', url: '/coursework'}
 - {name: 'CONTACT', url: '/contact'}
 
-archive:
-- {name: 'Mathematics', url: '/mathematics'}
-- {name: 'Lecture Notes', url: '/lecture-notes'}
-
-admission:
-- {name: 'College Admissions', url: '/adm'}
-
-data:
-- {name: 'phyphox (May 2024)', url: '/may-2024-phyphox'}
+acceptances:
+- {name: 'Acceptances', url: '/acceptances'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
 - {icon: 'orcid', link: 'https://orcid.org/0009-0000-6873-5271'}
 
 contacts:
-- {name: 'Minho Jeong', title: 'Undergraduate Student', school: 'Korea Advanced Institute of Science and Technology', number: 'Class of 2029', email: 'mjeong [at] kaist [dot] ac [dot] kr', orcid: '0009-0000-6873-5271'}
+- {name: 'Minho Jeong', title: 'Undergraduate Student (Freshman)', school: 'Korea Advanced Institute of Science and Technology', number: 'Class of 2029', email: 'mjeong [at] kaist [dot] ac [dot] kr', orcid: '0009-0000-6873-5271'}
