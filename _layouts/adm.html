@@ -6,21 +6,25 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">College Acceptances</h3>
+    
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Acceptances</h3>
+    
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">South Korea</h4>
+        <h4 class="border-bottom">Undergraduate</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.adm.kr %}
+        {% for section in site.data.acceptances.undergraduate %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
+    
+    <!---
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">United States</h4>
+        <h4 class="border-bottom">Graduate</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.adm.us %}
@@ -29,6 +33,8 @@ layout: default
         {% endfor %}
       </div>
     </div>
+    --->
+    
   </div>
 </div>
 
