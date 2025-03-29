@@ -1,3 +1,19 @@
+My Order
+
+ 1. Address
+ 2. Research Interests
+ 3. Education
+ 4. Honors (Selected)
+ 5. Scholarships
+ 6. Publications
+ 7. Research Experience
+ 8. Talks and Conferences Attended
+ 9. Mentorship and Service
+10. Professional Memberships
+11. Miscellaneous
+
+---
+
  1.  Contact Information
  2.  Research Interests
  3.  Education
