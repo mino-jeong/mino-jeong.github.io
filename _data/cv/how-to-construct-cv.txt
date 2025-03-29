@@ -1,4 +1,22 @@
  1.  Contact Information
+ 2.  Research Interests
+ 3.  Education
+ 4.  Honors and Scholarships
+ 5.  Publications
+ 6.  Research Experience
+ 7.  Teaching Experience
+ 8.  Industry Experience
+ 9.  Talks and Tutorials
+10.  Mentorship and Service
+11.  Professional Memberships
+12.  Technical Skills
+13.  Other Interests
+
+Reference: Overleaf
+
+---
+
+ 1.  Contact Information
  2.  Research Objective or Personal Profile
  3.  Education Section
  4.  Professional Appointments
@@ -12,7 +30,4 @@
 12.  Languages and Skills
 13.  References
 
-ref: wordvice.com
-  
----
-
+Reference: Wordvice
