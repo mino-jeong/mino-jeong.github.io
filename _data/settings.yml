@@ -1,10 +1,12 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
 - {name: 'COURSEWORK', url: '/coursework'}
-- {name: 'CONTACT', url: '/contact'}
 
 acceptances:
 - {name: 'Acceptances', url: '/acceptances'}
+
+contact:
+- {name: 'CONTACT', url: '/contact'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
