@@ -1,0 +1,9 @@
+.custom-col-2-5 {
+  flex: 0 0 20.83%;
+  max-width: 20.83%;
+}
+
+.custom-col-9-5 {
+  flex: 0 0 79.17%;
+  max-width: 79.17%;
+}
