@@ -10,10 +10,10 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-5">Acceptances</h3>
     
     <div class="row g-5 mb-5">
-      <div class="custom-col-2-5">
+      <div class="col-md-2">
         <h4 class="border-bottom">Undergraduate</h4>
       </div>
-      <div class="custom-col-9-5">
+      <div class="col-md-10">
         {% for section in site.data.acceptances.undergraduate %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
@@ -23,10 +23,10 @@ layout: default
     
     <!---
     <div class="row g-5 mb-5">
-      <div class="custom-col-2-5">
+      <div class="col-md-2">
         <h4 class="border-bottom">Graduate</h4>
       </div>
-      <div class="custom-col-9-5">
+      <div class="col-md-10">
         {% for section in site.data.adm.us %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
