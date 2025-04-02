@@ -13,4 +13,4 @@ social:
 - {icon: 'orcid', link: 'https://orcid.org/0009-0000-6873-5271'}
 
 contacts:
-- {name: 'Minho Jeong', title: 'Undergraduate Student (Freshman)', school: 'Korea Advanced Institute of Science and Technology', number: 'Class of 2029', email: 'mjeong [at] kaist [dot] ac [dot] kr', orcid: '<span>0009</span>-<span>0000</span>-<span>6873</span>-<span>5271</span>'}
+- {name: 'Minho Jeong', title: 'Undergraduate Student (Freshman)', school: 'Korea Advanced Institute of Science and Technology', number: 'Class of 2029', email: 'mjeong [at] kaist [dot] ac [dot] kr', phone: '+82 10-7932-3846', orcid: '<span>0009</span>-<span>0000</span>-<span>6873</span>-<span>5271</span>'}
