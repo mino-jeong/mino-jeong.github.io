@@ -1,11 +1,11 @@
 - title: 'MAS101: Calculus I'
-  description: '3 credits'
+  description: 'Mandatory Basic, 3 credits'
 
 - title: 'MAS109: Introduction to Linear Algebra'
-  description: '3 credits'
+  description: 'Elective Basic, 3 credits'
 
 - title: 'MAS210: Introduction to Number Theory'
-  description: '3 credits'
+  description: 'Elective Major, 3 credits'
 
 - title: 'MAS241: Analysis I'
-  description: '4 credits'
+  description: 'Elective Major*, 4 credits'
