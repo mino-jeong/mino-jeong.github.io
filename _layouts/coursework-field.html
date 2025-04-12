@@ -19,7 +19,7 @@ layout: default
         <h4 class="border-bottom m-0">Algebra & Number Theory</h4>
       </div>
       <div>
-        {% for section in site.data.coursework.algebra %}
+        {% for section in site.data.coursework-field.algebra %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
         {% endfor %}
@@ -31,55 +31,7 @@ layout: default
         <h4 class="border-bottom">Analysis</h4>
       </div>
       <div class="col-md-9">
-        {% for section in site.data.coursework.analysis %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-3">
-        <h4 class="border-bottom">Geometry and Topology</h4>
-      </div>
-      <div class="col-md-9">
-        {% for section in site.data.coursework.geometry %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-3">
-        <h4 class="border-bottom">Geometry and Topology</h4>
-      </div>
-      <div class="col-md-9">
-        {% for section in site.data.coursework.geometry %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Probability and Statistics</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.coursework.probability %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Probability and Statistics</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.coursework.probability %}
+        {% for section in site.data.coursework-field.analysis %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
         {% endfor %}
