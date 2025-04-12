@@ -14,11 +14,11 @@ layout: default
       </a>
     </p>
     
-    <div class="row g-5 mb-5">
-      <div class="col-md-3">
-        <h4 class="border-bottom">Spring 2025</h4>
+    <div class="d-flex mb-5" style="gap: 2rem;">
+      <div style="min-width: 200px;">
+        <h4 class="border-bottom m-0">Spring 2025</h4>
       </div>
-      <div class="col-md-9">
+      <div>
         {% for section in site.data.coursework-term.2025-1 %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
