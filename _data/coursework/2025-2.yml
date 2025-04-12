@@ -4,8 +4,8 @@
 
 - title: 'MAS242: Analysis II'
   description: '<strong>TBD</strong> • TBD • 4 credits'
-  textbook: '<i>Textbook: TBD</i>'
+  textbook: "TBD<!--Rudin's Principles of Mathematical Analysis-->"
 
 - title: 'MAS321: Introduction to Differential Geometry'
   description: '<strong>TBD</strong> • TBD • 4 credits'
-  textbook: '<i>Textbook: TBD</i>'
+  textbook: "TBD<!--do Carmo's Differential Geometry of Curves and Surfaces-->"
