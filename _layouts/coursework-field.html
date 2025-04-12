@@ -14,20 +14,30 @@ layout: default
       </a>
     </p>
     
-    <div class="mb-4">
-      <h4 class="border-bottom">Algebra and Number Theory</h4>
-      {% for section in site.data.coursework-field.algebra %}
-        <p class="fw-bold">{{ section.title }}</p>
-        <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-      {% endfor %}
+    <div class="mb-5">
+      <h4 class="border-bottom mb-3">Algebra and Number Theory</h4>
+      <div class="ps-2">
+        {% for section in site.data.coursework-field.algebra %}
+          <p class="fw-bold mb-1">{{ section.title }}</p>
+          <p class="mb-4">
+            {{ section.description }}<br>
+            <small>Textbook: {{ section.textbook }}</small>
+          </p>
+        {% endfor %}
+      </div>
     </div>
 
-    <div class="mb-4">
-      <h4 class="border-bottom">Analysis</h4>
-      {% for section in site.data.coursework-field.analysis %}
-        <p class="fw-bold">{{ section.title }}</p>
-        <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-      {% endfor %}
+    <div class="mb-5">
+      <h4 class="border-bottom mb-3">Analysis</h4>
+      <div class="ps-2">
+        {% for section in site.data.coursework-field.analysis %}
+          <p class="fw-bold mb-1">{{ section.title }}</p>
+          <p class="mb-4">
+            {{ section.description }}<br>
+            <small>Textbook: {{ section.textbook }}</small>
+          </p>
+        {% endfor %}
+      </div>
     </div>
     
   </div>
