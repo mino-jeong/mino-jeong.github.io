@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Mathematics Coursework (Chronological View)</h3>
+
+    <p class="mb-4 text-end">
+      <a href="/coursework-chronological" 
+         style="text-decoration: none; color: #1487C8; font-weight: bold;"
+         onmouseover="this.style.textDecoration='underline'; this.style.color='#0d6efd';"
+         onmouseout="this.style.textDecoration='none'; this.style.color='#1487C8';">
+        Prefer a chronological view? <span style="font-size: 0.95em;">Click here →</span>
+      </a>
+    </p>
+    
+    <div class="row g-5 mb-5">
+      <div class="col-md-3">
+        <h4 class="border-bottom">Algebra & Number Theory</h4>
+      </div>
+      <div class="col-md-9">
+        {% for section in site.data.coursework.algebra %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="row g-5 mb-5">
+      <div class="col-md-3">
+        <h4 class="border-bottom">Analysis</h4>
+      </div>
+      <div class="col-md-9">
+        {% for section in site.data.coursework.analysis %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="row g-5 mb-5">
+      <div class="col-md-3">
+        <h4 class="border-bottom">Geometry and Topology</h4>
+      </div>
+      <div class="col-md-9">
+        {% for section in site.data.coursework.geometry %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="row g-5 mb-5">
+      <div class="col-md-3">
+        <h4 class="border-bottom">Geometry and Topology</h4>
+      </div>
+      <div class="col-md-9">
+        {% for section in site.data.coursework.geometry %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Probability and Statistics</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.coursework.probability %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Probability and Statistics</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.coursework.probability %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
+        {% endfor %}
+      </div>
+    </div>
+    
+  </div>
+</div>
