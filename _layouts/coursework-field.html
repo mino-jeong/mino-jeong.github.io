@@ -14,29 +14,33 @@ layout: default
       </a>
     </p>
     
-    <div class="mb-5">
-      <h4 class="border-bottom mb-3">Algebra and Number Theory</h4>
-      <div class="ps-2">
-        {% for section in site.data.coursework-field.algebra %}
-          <p class="fw-bold mb-1">{{ section.title }}</p>
-          <p class="mb-4">
-            {{ section.description }}<br>
-            <small>Textbook: {{ section.textbook }}</small>
-          </p>
-        {% endfor %}
+    <div class="mb-5 row gx-5">
+      <div class="col-12">
+        <h4 class="border-bottom mb-4">Algebra and Number Theory</h4>
+        <div class="ps-md-4">
+          {% for section in site.data.coursework-field.algebra %}
+            <p class="fw-bold mb-1">{{ section.title }}</p>
+            <p class="mb-4">
+              {{ section.description }}<br>
+              <small>Textbook: {{ section.textbook }}</small>
+            </p>
+          {% endfor %}
+        </div>
       </div>
     </div>
 
-    <div class="mb-5">
-      <h4 class="border-bottom mb-3">Analysis</h4>
-      <div class="ps-2">
-        {% for section in site.data.coursework-field.analysis %}
-          <p class="fw-bold mb-1">{{ section.title }}</p>
-          <p class="mb-4">
-            {{ section.description }}<br>
-            <small>Textbook: {{ section.textbook }}</small>
-          </p>
-        {% endfor %}
+    <div class="mb-5 row gx-5">
+      <div class="col-12">
+        <h4 class="border-bottom mb-4">Analysis</h4>
+        <div class="ps-md-4">
+          {% for section in site.data.coursework-field.analysis %}
+            <p class="fw-bold mb-1">{{ section.title }}</p>
+            <p class="mb-4">
+              {{ section.description }}<br>
+              <small>Textbook: {{ section.textbook }}</small>
+            </p>
+          {% endfor %}
+        </div>
       </div>
     </div>
     
