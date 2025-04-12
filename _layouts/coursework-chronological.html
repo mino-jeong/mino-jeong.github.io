@@ -6,7 +6,7 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Mathematics Coursework (Chronological View)</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Coursework in Mathematics</h3>
 
     <p class="mb-4 text-end">
       <a href="/coursework-chronological" 
@@ -19,22 +19,10 @@ layout: default
     
     <div class="row g-5 mb-5">
       <div class="col-md-3">
-        <h4 class="border-bottom">Algebra & Number Theory</h4>
+        <h4 class="border-bottom">Spring 2025</h4>
       </div>
       <div class="col-md-9">
-        {% for section in site.data.coursework.algebra %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="row g-5 mb-5">
-      <div class="col-md-3">
-        <h4 class="border-bottom">Analysis</h4>
-      </div>
-      <div class="col-md-9">
-        {% for section in site.data.coursework.analysis %}
+        {% for section in site.data.coursework-term.2025-1 %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
         {% endfor %}
@@ -43,10 +31,10 @@ layout: default
     
     <div class="row g-5 mb-5">
       <div class="col-md-3">
-        <h4 class="border-bottom">Geometry and Topology</h4>
+        <h4 class="border-bottom">Summer 2025</h4>
       </div>
       <div class="col-md-9">
-        {% for section in site.data.coursework.geometry %}
+        {% for section in site.data.coursework-term.2025-1A %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
         {% endfor %}
@@ -55,34 +43,10 @@ layout: default
     
     <div class="row g-5 mb-5">
       <div class="col-md-3">
-        <h4 class="border-bottom">Geometry and Topology</h4>
+        <h4 class="border-bottom">Fall 2025</h4>
       </div>
       <div class="col-md-9">
-        {% for section in site.data.coursework.geometry %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Probability and Statistics</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.coursework.probability %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
-        {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Probability and Statistics</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.coursework.probability %}
+        {% for section in site.data.coursework-term.2025-2 %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}<br><small>Textbook: {{ section.textbook }}</small></p>
         {% endfor %}
