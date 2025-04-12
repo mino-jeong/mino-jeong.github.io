@@ -1,4 +1,0 @@
----
-layout: coursework
-title: "Coursework"
----
