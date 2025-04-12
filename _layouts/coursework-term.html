@@ -6,6 +6,7 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
+    
     <h3 class="fw-bold border-bottom pb-3 mb-5">Coursework in Mathematics</h3>
 
     <p class="mb-4 text-end">
@@ -19,7 +20,7 @@ layout: default
         <h4 class="border-bottom mb-4">Spring 2025</h4>
         <div class="ps-md-4">
           {% for section in site.data.coursework-term.2025-1 %}
-            <p class="fw-bold mb-1">{{ section.title }}</p>
+            <p class="fw-bold mb-3">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
               <small>Textbook: {{ section.textbook }}</small>
@@ -34,7 +35,7 @@ layout: default
         <h4 class="border-bottom mb-4">Summer 2025</h4>
         <div class="ps-md-4">
           {% for section in site.data.coursework-term.2025-1A %}
-            <p class="fw-bold mb-1">{{ section.title }}</p>
+            <p class="fw-bold mb-3">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
               <small>Textbook: {{ section.textbook }}</small>
@@ -43,7 +44,8 @@ layout: default
         </div>
       </div>
     </div>
-    
+
+    <!---
     <div class="mb-5 row gx-5">
       <div class="col-12">
         <h4 class="border-bottom mb-4">Fall 2025</h4>
@@ -58,6 +60,7 @@ layout: default
         </div>
       </div>
     </div>
+    --->
     
   </div>
 </div>
