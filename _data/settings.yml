@@ -1,9 +1,12 @@
 menu:
 - {name: 'CURRICULUM VITAE', url: '/cv'}
-- {name: 'COURSEWORK', url: '/coursework'}
+- {name: 'COURSEWORK', url: '/coursework-time'}
 
 acceptances:
 - {name: 'Acceptances', url: '/acceptances'}
+
+coursework:
+- - {name: 'COURSEWORK', url: '/coursework-field'}
 
 contact:
 - {name: 'CONTACT', url: '/contact'}
