@@ -1,11 +1,19 @@
+- title: 'MAS102: Calculus II'
+  description: '<strong>TBD</strong> • Foundation • TBD'
+  textbook: "Kim's 25 Lectures for Undergraduate Calculus II"
+
+- title: 'MAS250: Probability and Statistics'
+  description: '<strong>TBD</strong> • Foundation • TBD'
+  textbook: "TBD"
+
 - title: 'MAS212: Linear Algebra'
   description: '<strong>TBD</strong> • Algebra • TBD'
-  textbook: "TBD<!--Hoffman and Kunze's Linear Algebra-->"
+  textbook: "TBD<!---Hoffman and Kunze's Linear Algebra--->"
 
 - title: 'MAS242: Analysis II'
   description: '<strong>TBD</strong> • Analysis • TBD'
-  textbook: "TBD<!--Rudin's Principles of Mathematical Analysis-->"
+  textbook: "TBD<!---Rudin's Principles of Mathematical Analysis--->"
 
 - title: 'MAS321: Introduction to Differential Geometry'
   description: '<strong>TBD</strong> • Geometry • TBD'
-  textbook: "TBD<!--do Carmo's Differential Geometry of Curves and Surfaces-->"
+  textbook: "TBD<!---do Carmo's Differential Geometry of Curves and Surfaces--->"
