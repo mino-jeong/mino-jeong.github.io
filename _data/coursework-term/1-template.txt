@@ -1,9 +1,3 @@
-For term:
 - title: '[Course Title]'
   description: '[Grade] • [Field] • [Instructor]'
-  textbook: "[Writer]'s [Title]"
-
-For field:
-- title: '[Course Title]'
-  description: '[Grade] • [Term] • [Instructor]'
   textbook: "[Writer]'s [Title]"
