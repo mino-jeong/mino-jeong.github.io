@@ -1,8 +1,11 @@
+#- title: 'Presidential Science Scholarship'
+#  description: 'President of Republic of Korea (2025–Present)'
+
+#- title: 'National Excellence Scholarship (Natural Sciences and Engineering)'
+#  description: 'Minister of Ministry of Science and ICT (2025–Present)'
+
 - title: 'KAIST Presidential Fellowship'
   description: 'President of Korea Advanced Institute of Science and Technology (2025–Present)'
-
-- title: 'Yoon Seong Keun Scholarship'
-  description: 'Mr. Yoon Seong Keun (2025)'
 
 - title: 'ChildFund Korea I-leader Scholarship (National)'
   description: 'Executive of ChildFund Korea (2023–Present)'
