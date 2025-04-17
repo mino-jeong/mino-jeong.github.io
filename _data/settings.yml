@@ -7,8 +7,8 @@ acceptances:
 
 coursework:
 - {name: 'COURSEWORK', url: '/coursework-field'}
-- {name: 'CW by Term (Private)', url: '/cw-term'}
-- {name: 'CW by Field (Private)', url: '/cw-field'}
+- {name: 'Plan by Term', url: '/plan-term'}
+- {name: 'Plan by Field', url: '/plan-field'}
 
 contact:
 - {name: 'CONTACT', url: '/contact'}
