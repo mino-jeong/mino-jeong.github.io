@@ -21,21 +21,8 @@ layout: default
         {% endfor %}
       </div>
     </div>
-
-    <!--- 2. Research Interests --->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Research Interests</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.interests %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
     
-    <!--- 3. Education --->
+    <!--- 2. Education --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Education</h4>
@@ -48,13 +35,13 @@ layout: default
       </div>
     </div>
 
-    <!--- 4-1. Selected Honors --->
+    <!--- 3. Research Interests --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Selected Honors</h4>
+        <h4 class="border-bottom">Research Interests</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.honors-selected %}
+        {% for section in site.data.cv.interests %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -139,10 +126,10 @@ layout: default
       </div>
     </div>
 
-    <!--- 10. Mentorship and Service --->
+    <!--- 10. Mentorships and Services --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Service</h4>
+        <h4 class="border-bottom">Services</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.service %}
