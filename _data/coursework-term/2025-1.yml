@@ -8,7 +8,8 @@
 
 - title: 'MAS210: Introduction to Number Theory'
   description: '<strong>TBD</strong> • Number Theory • Wansu Kim'
-  textbook: "Burton's Elementary Number Theory"
+  textbook: "Burton's Elementary Number Theory<br>
+  Stein's Elementary Number Theory"
 
 - title: 'MAS241: Analysis I'
   description: '<strong>TBD</strong> • Analysis • Myeongjean Bae'
