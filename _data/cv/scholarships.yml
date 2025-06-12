@@ -1,11 +1,14 @@
 #- title: 'Presidential Science Scholarship'
-#  description: 'President of the Republic of Korea (2025–Present)'
+#  description: 'President of Republic of Korea (2025–Present)'
 
-- title: 'National Excellence Scholarship (STEM) – Nominated Recipient'
-  description: 'Minister of Science and ICT of the Republic of Korea (2025–Present)'
+#- title: 'National Excellence Scholarship (STEM) – Declined'
+#  description: 'Minister of Science and ICT of Republic of Korea'
+
+#- title: 'Regional Talent Scholarship – Declined'
+#  description: 'Chairman of Korea Student Aid Foundation'
 
 - title: 'KAIST Presidential Fellowship'
-  description: 'President of the Korea Advanced Institute of Science and Technology (2025–Present)'
+  description: 'President of Korea Advanced Institute of Science and Technology (2025–Present)'
 
 - title: 'ChildFund Korea I-leader Scholarship'
   description: 'Executive of ChildFund Korea (2023–Present)'
