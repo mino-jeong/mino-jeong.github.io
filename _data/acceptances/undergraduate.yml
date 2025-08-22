@@ -1,19 +1,19 @@
-- title: 'Korea Advanced Institute of Science and Technology (KAIST)'
+- title: '<font color="#E77500">Korea Advanced Institute of Science and Technology (KAIST)</font>'
   description: 'School of Freshman<br>
   <i>KAIST Presidential Fellowship</i>'
 
-- title: 'Pohang University of Science and Technology (POSTECH)'
+- title: '<font color="#AC145A">Pohang University of Science and Technology (POSTECH)</font>'
   description: 'Mueunjae School of Undergraduate Studies'
 
-- title: 'Korea University'
+- title: '<font color="#8B0029">Korea University</font>'
   description: 'Department of Mathematics'
 
-- title: 'Ulsan National Institute of Science and Technology (UNIST)'
+- title: '<font color="#64CCC9">Ulsan National Institute of Science and Technology (UNIST)</font>'
   description: 'School of New UNISTars<br>
   <i>Overseas Study Scholarship</i>'
 
-- title: 'Sungkyunkwan University'
+- title: '<font color="#2E4E3F">Sungkyunkwan University</font>'
   description: 'College of Science'
 
-- title: 'Hanyang University'
+- title: '<font color="#0E4A84">Hanyang University</font>'
   description: 'Department of Mathematics'
