@@ -1,5 +1,5 @@
-- title: 'Princeton University'
-  description: 'Princeton, NJ 08544'
+#- title: 'Princeton University'
+#  description: 'Princeton, NJ 08544, USA'
 
-#- title: 'Korea Advanced Institute of Science and Technology'
-#  description: '291 Daehak-ro, Yuseong-gu, Daejeon, Republic of Korea 34141'
+- title: 'Korea Advanced Institute of Science and Technology'
+  description: '291 Daehak-ro, Yuseong-gu<br>Daejeon, Republic of Korea 34141'
