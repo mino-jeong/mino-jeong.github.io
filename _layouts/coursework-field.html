@@ -19,11 +19,42 @@ layout: default
       <div class="col-12">
         <h4 class="border-bottom mb-4">Algebra and Number Theory</h4>
         <div class="ps-md-4">
-          {% for section in site.data.coursework-field.1-algebra %}
+          {% for section in site.data.coursework-field.1-alg-nt %}
             <p class="fw-bold mb-2">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="mb-5 row gx-5">
+      <div class="col-12">
+        <h4 class="border-bottom mb-4">Analysis</h4>
+        <div class="ps-md-4">
+          {% for section in site.data.coursework-field.2-analysis %}
+            <p class="fw-bold mb-2">{{ section.title }}</p>
+            <p class="mb-4">
+              {{ section.description }}<br>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
             </p>
           {% endfor %}
         </div>
@@ -35,43 +66,19 @@ layout: default
       <div class="col-12">
         <h4 class="border-bottom mb-4">Geometry and Topology</h4>
         <div class="ps-md-4">
-          {% for section in site.data.coursework-field.2-geometry %}
+          {% for section in site.data.coursework-field.3-geo-top %}
             <p class="fw-bold mb-2">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    {% endcomment %}
-    
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Analysis</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-field.4-analysis %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-
-    {% comment %}
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Probability and Statistics</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-field.5-probability %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
             </p>
           {% endfor %}
         </div>
@@ -84,11 +91,44 @@ layout: default
       <div class="col-12">
         <h4 class="border-bottom mb-4">Discrete Mathematics</h4>
         <div class="ps-md-4">
-          {% for section in site.data.coursework-field.7-discrete %}
+          {% for section in site.data.coursework-field.4-discrete %}
             <p class="fw-bold mb-2">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endcomment %}
+    
+    {% comment %}
+    <div class="mb-5 row gx-5">
+      <div class="col-12">
+        <h4 class="border-bottom mb-4">Probability and Statistics</h4>
+        <div class="ps-md-4">
+          {% for section in site.data.coursework-field.5-prob-stat %}
+            <p class="fw-bold mb-2">{{ section.title }}</p>
+            <p class="mb-4">
+              {{ section.description }}<br>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
             </p>
           {% endfor %}
         </div>
@@ -101,11 +141,19 @@ layout: default
       <div class="col-12">
         <h4 class="border-bottom mb-4">Other Mathematics</h4>
         <div class="ps-md-4">
-          {% for section in site.data.coursework-field.8-other %}
+          {% for section in site.data.coursework-field.9-other %}
             <p class="fw-bold mb-2">{{ section.title }}</p>
             <p class="mb-4">
               {{ section.description }}<br>
-              <small>Textbook: {{ section.textbook }}</small>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
             </p>
           {% endfor %}
         </div>
