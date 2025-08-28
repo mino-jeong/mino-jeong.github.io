@@ -1,6 +1,6 @@
 - title: 'MAS241: Analysis I'
   description: '<strong>P</strong> • Spring 2025 • Myeongjean Bae'
-  textbook: "Rudin's Principles of Mathematical Analysis, Chapter 1–7"
+  textbook: "Rudin's Principles of Mathematical Analysis, chapters 1–7"
 
 #- title: 'MAS242: Analysis II'
 #  description: '<strong>TBD</strong> • Fall 2025 • Myeongjean Bae'
@@ -8,8 +8,8 @@
 
 - title: 'MATH 185: Introduction to Complex Analysis'
   description: '<strong>P</strong> • Summer 2025 • Rui Wang'
-  textbook: "Priestley's Introduction to Complex Analysis<br>
-  Stein and Shakarchi's Complex Analysis"
+  textbook: "Priestley's Introduction to Complex Analysis, chapters 1–20<br>
+  Stein and Shakarchi's Complex Analysis, used as a reference"
 
 #- title: 'MAT 216: Multivariable Analysis and Linear Algebra I'
 #  description: '<strong>TBD</strong> • Fall 2025 • Bjoern Bringmann'
