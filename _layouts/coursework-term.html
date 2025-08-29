@@ -14,6 +14,29 @@ layout: default
         <strong>View by Field →</strong>
       </a>
     </p>
+
+    <div class="mb-5 row gx-5">
+      <div class="col-12">
+        <h4 class="border-bottom mb-4">Fall 2025 <small>(KAIST)</small></h4>
+        <div class="ps-md-4">
+          {% for section in site.data.coursework-term.2025-2 %}
+            <p class="fw-bold mb-2">{{ section.title }}</p>
+            <p class="mb-4">
+              {{ section.description }}<br>
+              <small class="d-flex">
+                <span class="me-2">Textbook:</span>
+                <span class="d-block">
+                  {% assign books = section.textbook | split: "<br>" %}
+                  {% for book in books %}
+                    {{ book }}<br>
+                  {% endfor %}
+                </span>
+              </small>
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
     
     <div class="mb-5 row gx-5">
       <div class="col-12">
@@ -60,6 +83,6 @@ layout: default
         </div>
       </div>
     </div>
-    
+
   </div>
 </div>
