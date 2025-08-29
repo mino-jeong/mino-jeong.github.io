@@ -1,15 +1,11 @@
-#- title: 'MAT 216: Multivariable Analysis and Linear Algebra I'
-#  description: '<strong>TBD</strong> • Analysis • Bjoern Bringmann'
-#  textbook: "Gunning's An Introduction to Analysis"
-
-- title: 'MAS212: Linear Algebra'
+- title: 'MAS 212: Linear Algebra'
   description: '<strong>TBD</strong> • Algebra • TBD'
   textbook: "Hoffman and Kunze's Linear Algebra"
 
-- title: 'MAS242: Analysis II'
+- title: 'MAS 242: Analysis II'
   description: '<strong>TBD</strong> • Analysis • Myeongjean Bae'
   textbook: "Rudin's Principles of Mathematical Analysis, Chapter 8–11"
 
-- title: 'MAS321: Introduction to Differential Geometry'
+- title: 'MAS 321: Introduction to Differential Geometry'
   description: '<strong>TBD</strong> • Geometry • Jiewon Park'
   textbook: "do Carmo's Differential Geometry of Curves and Surfaces"
