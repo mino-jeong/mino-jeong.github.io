@@ -3,6 +3,6 @@
   textbook: "Burton's Elementary Number Theory (ch. 1-9, 12-16)<br>
   Stein's Elementary Number Theory (ch. 2-3)"
 
-#- title: 'MAS 212: Linear Algebra'
-#  description: '<strong>TBD</strong> • Fall 2025 • Andreas Holmsen'
-#  textbook: "Hoffman and Kunze's Linear Algebra"
+- title: 'MAS 212: Linear Algebra'
+  description: '<strong>TBD</strong> • Fall 2025 • Andreas Holmsen'
+  textbook: "Hoffman and Kunze's Linear Algebra"
