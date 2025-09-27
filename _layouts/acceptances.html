@@ -16,6 +16,7 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.acceptances.undergraduate %}
           <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.degree }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
