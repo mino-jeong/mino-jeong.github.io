@@ -1,25 +1,19 @@
 - title: 'Korea Advanced Institute of Science and Technology (KAIST)'
-  degree: 'Bachelor of Science'
-  description: 'School of Freshman<br>
+  description: 'School of Freshman (B.Sc.)<br>
   <i>KAIST Presidential Fellowship</i>'
 
 - title: 'Pohang University of Science and Technology (POSTECH)'
-  degree: 'Bachelor of Science'
-  description: 'Mueunjae School of Undergraduate Studies'
+  description: 'Mueunjae School of Undergraduate Studies (B.Sc.)'
 
 - title: 'Korea University'
-  degree: 'Bachelor of Science'
-  description: 'Department of Mathematics'
+  description: 'Department of Mathematics (B.Sc.)'
 
 - title: 'Ulsan National Institute of Science and Technology (UNIST)'
-  degree: 'Bachelor of Science'
-  description: 'School of New UNISTars<br>
+  description: 'School of New UNISTars (B.Sc.)<br>
   <i>Overseas Study Scholarship</i>'
 
 - title: 'Sungkyunkwan University'
-  degree: 'Bachelor of Science'
-  description: 'College of Science'
+  description: 'College of Science (B.Sc.)'
 
 - title: 'Hanyang University'
-  degree: 'Bachelor of Science'
-  description: 'Department of Mathematics'
+  description: 'Department of Mathematics (B.Sc.)'
