@@ -1,9 +1,24 @@
 # format:
-# - title: '[award title]'
-#   description: '[description] ([MMM YYYY])'
+#- title: '[award title]'
+#  description: '[description] ([MMM YYYY])'
+
+- title: "Dean's List of College of Natural Sciences"
+  description: "College of Natural Sciences, KAIST (Mar 2028)"
+
+- title: "Dean's List of Department of Mathematical Sciences"
+  description: "Department of Mathematical Sciences, KAIST (Mar 2028)"
+
+- title: "Dean's List of Department of Mathematical Sciences"
+  description: "Department of Mathematical Sciences, KAIST (Aug 2027)"
+
+- title: "Dean's List of Department of Mathematical Sciences"
+  description: "Department of Mathematical Sciences, KAIST (Mar 2027)"
+
+- title: "Dean's List of Department of Mathematical Sciences"
+  description: "Department of Mathematical Sciences, KAIST (Aug 2026)"
 
 - title: 'International Youth Math Challenge 2024'
-  description: 'Bronze Honour, IYMC Team Coordinator & IYMC Program Coordinator (Feb 2025)<br>
+  description: '</strong>Bronze Honour<strong>, IYMC Team Coordinator & IYMC Program Coordinator (Feb 2025)<br>
   Special Honour, IYMC Team Coordinator & IYMC Program Coordinator (Dec 2024)'
 
 - title: 'American Mathematics Competition 2024'
