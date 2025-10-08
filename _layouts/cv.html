@@ -100,7 +100,20 @@ layout: default
       </div>
     </div>
 
-    <!--- 8. Other Experience --->
+    <!--- 8. High School Research --->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">High School Research</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.hs-research %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!--- 9. Other Experience --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Other Experiences</h4>
@@ -113,7 +126,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 9. Talks and Conferences --->
+    <!--- 10. Talks and Conferences --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Talks</h4>
@@ -126,7 +139,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 10. Mentorships and Services --->
+    <!--- 11. Mentorships and Services --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Services</h4>
@@ -139,7 +152,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 11. Professional Memberships --->
+    <!--- 12. Professional Memberships --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Memberships</h4>
@@ -152,7 +165,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 12. Miscellaneous --->
+    <!--- 13. Miscellaneous --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Miscellaneous</h4>
