@@ -1,3 +1,19 @@
-#- title: 'MAT 218: Multivariable Analysis and Linear Algebra II'
-#  description: '<strong>TBD</strong> • Analysis • TBD'
-#  textbook: "Gunning's An Introduction to Analysis"
+- title: 'MAS 250: Probability and Statistics'
+  description: '<strong>TBD</strong> • Other • TBD'
+  textbook: "TBD"
+
+- title: 'MAS 311: Modern Algebra I'
+  description: '<strong>TBD</strong> • Algebra • TBD'
+  textbook: "Dummit and Foote's Abstract Algebra"
+
+- title: 'MAS 331: Topology'
+  description: '<strong>TBD</strong> • Topology • Hyungryul Baik'
+  textbook: "Munkres' Topology"
+
+- title: 'MAS 583: Topics in Mathematics <Advanced Discrete Geometry>'
+  description: '<strong>TBD</strong> • Discrete • Andreas Holmsen'
+  textbook: "TBD"
+
+- title: 'MAS 621: Riemannian Geometry'
+  description: '<strong>TBD</strong> • Geometry • Jiewon Park'
+  textbook: "TBD"
