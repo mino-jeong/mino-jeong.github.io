@@ -2,17 +2,17 @@
   description: 'College of Pharmacy<br>
   Doctor of Pharmacy'
 
-- title: 'Hanyang University'
-  description: 'College of Medicine<br>
-  Doctor of Medicine'
+#- title: 'Hanyang University'
+#  description: 'College of Medicine<br>
+#  Doctor of Medicine'
 
-- title: 'Jeonbuk National University'
-  description: 'School of Medicine<br>
-  Doctor of Pharmacy'
+#- title: 'Jeonbuk National University'
+#  description: 'School of Medicine<br>
+#  Doctor of Pharmacy'
 
-- title: 'Soonchunhyang University'
-  description: 'College of Medicine<br>
-  Doctor of Medicine'
+#- title: 'Soonchunhyang University'
+#  description: 'College of Medicine<br>
+#  Doctor of Medicine'
 
 - title: 'Sungkyunkwan University'
   description: 'School of Pharmacy<br>
