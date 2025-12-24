@@ -4,13 +4,13 @@
 
 - title: 'MAS 212: Linear Algebra'
   description: '<strong>TBD</strong> • Algebra • Andreas Holmsen'
-  textbook: "Hoffman and Kunze's Linear Algebra"
+  textbook: "Hoffman and Kunze's Linear Algebra (ch. 1.1–8.2)"
 
 - title: 'MAS 242: Analysis II'
   description: '<strong>TBD</strong> • Analysis • Myeongjean Bae'
-  textbook: "Rudin's Principles of Mathematical Analysis (ch. 8-9)<br>
+  textbook: "Rudin's Principles of Mathematical Analysis (ch. 8–9)<br>
   Szilágyi, T. (1977). <i>Inverse function theorem - without assuming continuous differentaibility.</i>"
 
 - title: 'MAS 321: Introduction to Differential Geometry'
   description: '<strong>TBD</strong> • Geometry • Jiewon Park'
-  textbook: "do Carmo's Differential Geometry of Curves and Surfaces"
+  textbook: "do Carmo's Differential Geometry of Curves and Surfaces (ch. 1.1–4.5)"
