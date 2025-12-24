@@ -4,13 +4,13 @@
 
 - title: 'MAS 109: Introduction to Linear Algebra'
   description: '<strong>B+</strong> • Other • Dongyoup Suh'
-  textbook: "Anton's Contemporary Linear Algebra (ch. 1.1-8.6)"
+  textbook: "Anton's Contemporary Linear Algebra (ch. 1.1–8.6)"
 
 - title: 'MAS 210: Introduction to Number Theory'
   description: '<strong>P</strong> • Number Theory • Wansu Kim'
-  textbook: "Burton's Elementary Number Theory (ch. 1-9, 12-16)<br>
+  textbook: "Burton's Elementary Number Theory (ch. 1–9, 12–16)<br>
   Stein's Elementary Number Theory (ch. 2-3)"
 
 - title: 'MAS 241: Analysis I'
   description: '<strong>P</strong> • Analysis • Myeongjean Bae'
-  textbook: "Rudin's Principles of Mathematical Analysis (ch. 1-7)"
+  textbook: "Rudin's Principles of Mathematical Analysis (ch. 1–7)"
