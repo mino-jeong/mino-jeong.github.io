@@ -1,9 +1,5 @@
-- title: 'MAS 250: Probability and Statistics'
-  description: '<strong>TBD</strong> • Other • TBD'
-  textbook: "TBD"
-
 - title: 'MAS 311: Modern Algebra I'
-  description: '<strong>TBD</strong> • Algebra • TBD'
+  description: '<strong>TBD</strong> • Algebra • Sanghoon Baek'
   textbook: "Dummit and Foote's Abstract Algebra"
 
 - title: 'MAS 331: Topology'
@@ -12,8 +8,4 @@
 
 - title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
   description: '<strong>TBD</strong> • Discrete • Andreas Holmsen'
-  textbook: "TBD"
-
-- title: 'MAS 621: Riemannian Geometry (Audit)'
-  description: '<strong>TBD</strong> • Geometry • Jiewon Park'
   textbook: "TBD"
