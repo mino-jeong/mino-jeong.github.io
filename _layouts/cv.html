@@ -126,6 +126,19 @@ layout: default
       </div>
     </div>
 
+    <!--- 9A. Invited Talks --->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Outreach</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.outreach %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
     <!--- 10. Talks and Conferences --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
