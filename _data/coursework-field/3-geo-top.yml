@@ -3,8 +3,14 @@
   textbook: "do Carmo's Differential Geometry of Curves and Surfaces (ch. 1.1–4.5)"
 
 - title: 'MAS 331: Topology'
+  description: '<strong>TBD</strong> • Spring 2026 • Hyungryul Baik'
+  textbook: "Munkres' Topology"
 
 - title: 'MAS 495: Individual Study (studied elliptic PDEs)'
   description: '<strong>TBD</strong> • Winter 2025 • Jiewon Park'
   textbook: "Han and Lin's Elliptic Partial Differential Equations (ch. 1–2)<br>
   Evans' Partial Differential Equations (ch. 5)"
+
+- title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
+  description: '<strong>TBD</strong> • Spring 2026 • Andreas Holmsen'
+  textbook: "TBD"
