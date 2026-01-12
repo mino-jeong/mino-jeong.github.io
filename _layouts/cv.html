@@ -74,6 +74,7 @@ layout: default
       </div>
     </div>
 
+    <!---
     <!--- 6. Publications --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
@@ -86,8 +87,10 @@ layout: default
         {% endfor %}
       </div>
     </div>
+    --->
 
-    <!--- 7. Research Experience --->
+    <!---
+    <!--- 7A. Research Experience --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Research Experiences</h4>
@@ -99,8 +102,9 @@ layout: default
         {% endfor %}
       </div>
     </div>
+    --->
 
-    <!--- 8. High School Research --->
+    <!--- 7B. High School Research --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">High School Research</h4>
@@ -113,7 +117,20 @@ layout: default
       </div>
     </div>
 
-    <!--- 9. Other Experience --->
+    <!--- 8A. Outreach Experiences --->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Outreach Experiences</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.outreach %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!--- 8B. Other Experience --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Other Experiences</h4>
@@ -126,20 +143,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 9A. Invited Talks --->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Outreach</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.outreach %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-
-    <!--- 10. Talks and Conferences --->
+    <!--- 9. Talks and Conferences --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Talks</h4>
@@ -152,7 +156,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 11. Mentorships and Services --->
+    <!--- 10. Mentorships and Services --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Services</h4>
@@ -165,7 +169,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 12. Professional Memberships --->
+    <!--- 11. Professional Memberships --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Memberships</h4>
@@ -178,7 +182,7 @@ layout: default
       </div>
     </div>
 
-    <!--- 13. Miscellaneous --->
+    <!--- 12. Miscellaneous --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Miscellaneous</h4>
