@@ -117,26 +117,26 @@ layout: default
       </div>
     </div>
 
-    <!--- 8A. Outreach Experiences --->
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 class="border-bottom">Outreach Experiences</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.outreach %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>
-
-    <!--- 8B. Other Experience --->
+    <!--- 8A. Other Experience --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4 class="border-bottom">Other Experiences</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.experience %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!--- 8B. Outreach Experiences --->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4 class="border-bottom">Outreach Experiences</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.outreach %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
