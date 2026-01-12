@@ -9,4 +9,6 @@ title: "Home"
 
 <p>If you'd like to get in touch, feel free to check out my <strong><a href="https://mino-jeong.github.io/contact" style="text-decoration-line: none"><font color="#E77500">contact information</font></a></strong> or visit the footer of this page.</p>
 
+<!--
 <p>You can also take a look at my <strong><a href="https://mino-jeong.github.io/acceptances" style="text-decoration-line: none"><font color="#E77500">college acceptances</font></a></strong> for some fun insights into my academic journey!</p>
+-->
