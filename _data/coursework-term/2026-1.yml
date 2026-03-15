@@ -1,11 +1,11 @@
 - title: 'MAS 311: Modern Algebra I'
-  description: '<strong>TBD</strong> • Algebra • Sanghoon Baek'
+  description: '<strong>IP</strong> • Algebra • Sanghoon Baek'
   textbook: "Dummit and Foote's Abstract Algebra"
 
 - title: 'MAS 331: Topology'
-  description: '<strong>TBD</strong> • Topology • Hyungryul Baik'
+  description: '<strong>IP</strong> • Topology • Hyungryul Baik'
   textbook: "Munkres' Topology"
 
 - title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
-  description: '<strong>TBD</strong> • Discrete • Andreas Holmsen'
-  textbook: "TBD"
+  description: '<strong>IP</strong> • Combinatorics • Andreas Holmsen'
+  textbook: "Ziegler's Lectures on Polytopes"
