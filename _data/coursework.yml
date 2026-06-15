@@ -1,0 +1,35 @@
+- title: 'MAS 101: Calculus I'
+  grade: '<strong>A-</strong>'
+  professor: 'Andreas Holmsen'
+  field: 'Other/Basic Mathematics'
+  field_order: 9
+  term: 'Spring 2025'
+  term_order: 20251
+  textbook: "Kim's 25 Lectures for Undergraduate Calculus I"
+
+- title: 'MAS 210: Introduction to Number Theory'
+  grade: '<strong>P</strong>'
+  professor: 'Wansu Kim'
+  field: 'Algebra and Number Theory'
+  field_order: 1
+  term: 'Spring 2025'
+  term_order: 20251
+  textbook: "Burton's Elementary Number Theory (ch. 1–9, 12–16)<br>Stein's Elementary Number Theory (ch. 2–3)"
+
+- title: 'MAS 241: Analysis I'
+  grade: '<strong>P</strong>'
+  professor: 'Myeongjean Bae'
+  field: 'Analysis'
+  field_order: 2
+  term: 'Spring 2025'
+  term_order: 20251
+  textbook: "Rudin's Principles of Mathematical Analysis (ch. 1–7)"
+
+- title: 'MATH 185: Introduction to Complex Analysis'
+  grade: '<strong>EPN</strong>'
+  professor: 'TBD'
+  field: 'Analysis'
+  field_order: 2
+  term: 'Summer 2025 <small>(UC Berkeley)</small>'
+  term_order: 20251.5
+  textbook: "TBD"
