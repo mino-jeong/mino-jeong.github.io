@@ -15,36 +15,39 @@ layout: default
       </a>
     </p>
     
-    {% assign courses_by_field = site.data.coursework | group_by: "field_order" | sort: "name" %}
-
-    {% for field_group in courses_by_field %}
-      {% assign current_field = field_group.items.first.field %}
+    {% for field in site.data.fields %}
+      {% assign courses_in_field = site.data.coursework | where: "field", field.id %}
       
-      <div class="mb-5 row gx-5">
-        <div class="col-12">
-          <h4 class="border-bottom mb-4">{{ current_field }}</h4>
-          <div class="ps-md-4">
-            
-            {% assign sorted_courses = field_group.items | sort: "term_order" | reverse %}
-            {% for course in sorted_courses %}
-              <p class="fw-bold mb-2">{{ course.title }}</p>
-              <p class="mb-4">
-                {{ course.grade }} • {{ course.term }} • {{ course.professor }}<br>
-                <small class="d-flex">
-                  <span class="me-2">Textbook:</span>
-                  <span class="d-block">
-                    {% assign books = course.textbook | split: "<br>" %}
-                    {% for book in books %}
-                      {{ book }}<br>
-                    {% endfor %}
-                  </span>
-                </small>
-              </p>
-            {% endfor %}
-            
+      {% if courses_in_field.size > 0 %}
+        <div class="mb-5 row gx-5">
+          <div class="col-12">
+            <h4 class="border-bottom mb-4">{{ field.title }}</h4>
+            <div class="ps-md-4">
+              
+              {% assign sorted_courses = courses_in_field | sort: "term" | reverse %}
+              {% for course in sorted_courses %}
+                
+                {% assign matched_term = site.data.terms | where: "id", course.term | first %}
+                
+                <p class="fw-bold mb-2">{{ course.title }}</p>
+                <p class="mb-4">
+                  {{ course.grade }} • {{ matched_term.title }} • {{ course.professor }}<br>
+                  <small class="d-flex">
+                    <span class="me-2">Textbook:</span>
+                    <span class="d-block">
+                      {% assign books = course.textbook | split: "<br>" %}
+                      {% for book in books %}
+                        {{ book }}<br>
+                      {% endfor %}
+                    </span>
+                  </small>
+                </p>
+              {% endfor %}
+              
+            </div>
           </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
     
   </div>
