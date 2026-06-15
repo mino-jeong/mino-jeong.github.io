@@ -1,11 +1,11 @@
 - id: alg-nt
   title: 'Algebra and Number Theory'
   
-- id: anal
-  title: 'Analysis'
-  
 - id: geo-top
   title: 'Geometry and Topology'
+
+- id: anal
+  title: 'Analysis'
   
 - id: disc
   title: 'Combinatorics'
