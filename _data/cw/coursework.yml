@@ -1,6 +1,7 @@
 # 2025-1 (Spring 2025)
 
 - title: 'MAS 101: Calculus I'
+  num: 101
   grade: '<strong>A-</strong>'
   professor: 'Andreas Holmsen'
   field: other
@@ -8,6 +9,7 @@
   textbook: "Kim's 25 Lectures for Undergraduate Calculus I"
 
 - title: 'MAS 109: Introduction to Linear Algebra'
+  num: 109
   grade: '<strong>B+</strong>'
   professor: 'Dongyoup Suh'
   field: other
@@ -15,6 +17,7 @@
   textbook: "Anton's Contemporary Linear Algebra (ch. 1.1–8.6)"
 
 - title: 'MAS 210: Introduction to Number Theory'
+  num: 210
   grade: '<strong>P</strong>'
   professor: 'Wansu Kim'
   field: alg
@@ -22,6 +25,7 @@
   textbook: "Burton's Elementary Number Theory (ch. 1–9, 12–16)<br>Stein's Elementary Number Theory (ch. 2–3)"
 
 - title: 'MAS 241: Analysis I'
+  num: 241
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
   field: analysis
@@ -33,6 +37,7 @@
 # 2025-1A (Summer 2025 - UC Berkeley)
 
 - title: 'MATH 185: Introduction to Complex Analysis'
+  num: 341
   grade: '<strong>P</strong>'
   professor: 'Rui Wang'
   field: analysis
@@ -44,6 +49,7 @@
 # 2025-2 (Fall 2025)
 
 - title: 'MAS 102: Calculus II'
+  num: 102
   grade: '<strong>A+</strong>'
   professor: 'Jiewon Park'
   field: other
@@ -51,6 +57,7 @@
   textbook: "Kim's 25 Lectures for Undergraduate Calculus II"
 
 - title: 'MAS 212: Linear Algebra'
+  num: 212
   grade: '<strong>B0</strong>'
   professor: 'Andreas Holmsen'
   field: alg
@@ -58,6 +65,7 @@
   textbook: "Hoffman and Kunze's Linear Algebra (ch. 1.1–8.2)"
 
 - title: 'MAS 242: Analysis II'
+  num: 242
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
   field: analysis
@@ -65,6 +73,7 @@
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 8–9)<br>Szilágyi, T. (1977). <i>Inverse function theorem - without assuming continuous differentaibility.</i>"
 
 - title: 'MAS 321: Introduction to Differential Geometry'
+  num: 321
   grade: '<strong>P</strong>'
   professor: 'Jiewon Park'
   field: geo
@@ -76,6 +85,7 @@
 # 2025-2A (Winter 2025)
 
 - title: 'MAS 495: Individual Study (studied elliptic PDEs)'
+  num: 495
   grade: '<strong>TBD</strong>'
   professor: 'Jiewon Park'
   field: geo
