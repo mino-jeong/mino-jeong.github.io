@@ -28,7 +28,7 @@
   num: 241
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
-  field: analysis
+  field: anal
   term: 2025-1
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 1–7)"
 
@@ -40,7 +40,7 @@
   num: 341
   grade: '<strong>P</strong>'
   professor: 'Rui Wang'
-  field: analysis
+  field: anal
   term: 2025-1A
   textbook: "Priestley's Introduction to Complex Analysis (ch. 1–20)<br>Stein and Shakarchi's Complex Analysis (reference)"
 
@@ -68,7 +68,7 @@
   num: 242
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
-  field: analysis
+  field: anal
   term: 2025-2
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 8–9)<br>Szilágyi, T. (1977). <i>Inverse function theorem - without assuming continuous differentaibility.</i>"
 
