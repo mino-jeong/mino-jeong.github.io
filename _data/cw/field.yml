@@ -1,0 +1,17 @@
+- id: alg-nt
+  title: 'Algebra and Number Theory'
+  
+- id: anal
+  title: 'Analysis'
+  
+- id: geo-top
+  title: 'Geometry and Topology'
+  
+- id: disc
+  title: 'Combinatorics'
+  
+- id: prob-stat
+  title: 'Probability and Statistics'
+  
+- id: other
+  title: 'Other/Basic Mathematics'
