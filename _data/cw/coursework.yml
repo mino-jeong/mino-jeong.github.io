@@ -1,35 +1,108 @@
+# 2025-1 (Spring 2025)
+
 - title: 'MAS 101: Calculus I'
   grade: '<strong>A-</strong>'
   professor: 'Andreas Holmsen'
-  field: 'Other/Basic Mathematics'
-  field_order: 9
-  term: 'Spring 2025'
-  term_order: 20251
+  field: other
+  term: 2025-1
   textbook: "Kim's 25 Lectures for Undergraduate Calculus I"
+
+- title: 'MAS 109: Introduction to Linear Algebra'
+  grade: '<strong>B+</strong>'
+  professor: 'Dongyoup Suh'
+  field: other
+  term: 2025-1
+  textbook: "Anton's Contemporary Linear Algebra (ch. 1.1–8.6)"
 
 - title: 'MAS 210: Introduction to Number Theory'
   grade: '<strong>P</strong>'
   professor: 'Wansu Kim'
-  field: 'Algebra and Number Theory'
-  field_order: 1
-  term: 'Spring 2025'
-  term_order: 20251
+  field: alg
+  term: 2025-1
   textbook: "Burton's Elementary Number Theory (ch. 1–9, 12–16)<br>Stein's Elementary Number Theory (ch. 2–3)"
 
 - title: 'MAS 241: Analysis I'
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
-  field: 'Analysis'
-  field_order: 2
-  term: 'Spring 2025'
-  term_order: 20251
+  field: analysis
+  term: 2025-1
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 1–7)"
 
+
+
+# 2025-1A (Summer 2025 - UC Berkeley)
+
 - title: 'MATH 185: Introduction to Complex Analysis'
-  grade: '<strong>EPN</strong>'
-  professor: 'TBD'
-  field: 'Analysis'
-  field_order: 2
-  term: 'Summer 2025 <small>(UC Berkeley)</small>'
-  term_order: 20251.5
-  textbook: "TBD"
+  grade: '<strong>P</strong>'
+  professor: 'Rui Wang'
+  field: analysis
+  term: 2025-1A
+  textbook: "Priestley's Introduction to Complex Analysis (ch. 1–20)<br>Stein and Shakarchi's Complex Analysis (reference)"
+
+
+
+# 2025-2 (Fall 2025)
+
+- title: 'MAS 102: Calculus II'
+  grade: '<strong>A+</strong>'
+  professor: 'Jiewon Park'
+  field: other
+  term: 2025-2
+  textbook: "Kim's 25 Lectures for Undergraduate Calculus II"
+
+- title: 'MAS 212: Linear Algebra'
+  grade: '<strong>B0</strong>'
+  professor: 'Andreas Holmsen'
+  field: alg
+  term: 2025-2
+  textbook: "Hoffman and Kunze's Linear Algebra (ch. 1.1–8.2)"
+
+- title: 'MAS 242: Analysis II'
+  grade: '<strong>P</strong>'
+  professor: 'Myeongjean Bae'
+  field: analysis
+  term: 2025-2
+  textbook: "Rudin's Principles of Mathematical Analysis (ch. 8–9)<br>Szilágyi, T. (1977). <i>Inverse function theorem - without assuming continuous differentaibility.</i>"
+
+- title: 'MAS 321: Introduction to Differential Geometry'
+  grade: '<strong>P</strong>'
+  professor: 'Jiewon Park'
+  field: geo
+  term: 2025-2
+  textbook: "do Carmo's Differential Geometry of Curves and Surfaces (ch. 1.1–4.5)"
+
+
+
+# 2025-2A (Winter 2025)
+
+- title: 'MAS 495: Individual Study (studied elliptic PDEs)'
+  grade: '<strong>TBD</strong>'
+  professor: 'Jiewon Park'
+  field: geo
+  term: 2025-2A
+  textbook: "Han and Lin's Elliptic Partial Differential Equations (ch. 1–2)<br>Evans' Partial Differential Equations (ch. 5)"
+
+
+
+# 2026-1 (Spring 2026)
+
+- title: 'MAS 311: Modern Algebra I'
+  grade: '<strong>IP</strong>'
+  professor: 'Sanghoon Baek'
+  field: alg
+  term: 2026-1
+  textbook: "Dummit and Foote's Abstract Algebra"
+
+- title: 'MAS 331: Topology'
+  grade: '<strong>IP</strong>'
+  professor: 'Hyungryul Baik'
+  field: geo
+  term: 2026-1
+  textbook: "Munkres' Topology"
+
+- title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
+  grade: '<strong>IP</strong>'
+  professor: 'Andreas Holmsen'
+  field: discrete
+  term: 2026-1
+  textbook: "Ziegler's Lectures on Polytopes"
