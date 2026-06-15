@@ -86,7 +86,7 @@
 
 - title: 'MAS 495: Individual Study (studied elliptic PDEs)'
   num: 495
-  grade: '<strong>TBD</strong>'
+  grade: '<strong>S</strong>'
   professor: 'Jiewon Park'
   field: geo
   term: 2025-2A
@@ -97,6 +97,7 @@
 # 2026-1 (Spring 2026)
 
 - title: 'MAS 311: Modern Algebra I'
+  num: 311
   grade: '<strong>IP</strong>'
   professor: 'Sanghoon Baek'
   field: alg
@@ -104,6 +105,7 @@
   textbook: "Dummit and Foote's Abstract Algebra"
 
 - title: 'MAS 331: Topology'
+  num: 331
   grade: '<strong>IP</strong>'
   professor: 'Hyungryul Baik'
   field: geo
@@ -111,8 +113,9 @@
   textbook: "Munkres' Topology"
 
 - title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
+  num: 583
   grade: '<strong>IP</strong>'
   professor: 'Andreas Holmsen'
-  field: discrete
+  field: disc
   term: 2026-1
   textbook: "Ziegler's Lectures on Polytopes"
