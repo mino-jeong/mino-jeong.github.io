@@ -15,7 +15,7 @@ layout: default
       </a>
     </p>
     
-    {% for field in site.data.fields %}
+    {% for field in site.data.cw.fields %}
       {% assign courses_in_field = site.data.cw.coursework | where: "field", field.id %}
       
       {% if courses_in_field.size > 0 %}
@@ -24,10 +24,10 @@ layout: default
             <h4 class="border-bottom mb-4">{{ field.title }}</h4>
             <div class="ps-md-4">
               
-              {% assign sorted_courses = courses_in_field | sort: "term" | reverse %}
+              {% assign sorted_courses = courses_in_field | sort: "num" %}
               {% for course in sorted_courses %}
                 
-                {% assign matched_term = site.data.terms | where: "id", course.term | first %}
+                {% assign matched_term = site.data.cw.terms | where: "id", course.term | first %}
                 
                 <p class="fw-bold mb-2">{{ course.title }}</p>
                 <p class="mb-4">
