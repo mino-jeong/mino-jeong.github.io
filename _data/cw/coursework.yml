@@ -2,7 +2,7 @@
 
 - title: 'MAS 312: Modern Algebra II'
   num: 312
-  grade: '<strong>(A-F)</strong>'
+  grade: '<strong>(A–F)</strong>'
   professor: 'Sanghoon Baek'
   field: alg
   term: 2026-2
@@ -10,7 +10,7 @@
 
 - title: 'MAS 411: Introduction to Algebraic Geometry'
   num: 411
-  grade: '<strong>(A-F)</strong>'
+  grade: '<strong>(A–F)</strong>'
   professor: 'Jinhyung Park'
   field: alg
   term: 2026-2
@@ -18,7 +18,7 @@
 
 - title: 'MAS 430: Combinatorial Topology'
   num: 430
-  grade: '<strong>(A-F)</strong>'
+  grade: '<strong>(A–F)</strong>'
   professor: 'Woojin Kim'
   field: geo
   term: 2026-2
@@ -42,7 +42,7 @@
 
 - title: 'MAS 513: Homological Algebra'
   num: 513
-  grade: '<strong>(ABC)</strong>'
+  grade: '<strong>(A–F)</strong>'
   professor: 'Jinhyun Park'
   field: alg
   term: 2026-2
@@ -50,7 +50,7 @@
 
 - title: 'MAS 541: Complex Function Theory'
   num: 541
-  grade: '<strong>(ABC)</strong>'
+  grade: '<strong>(A–F)</strong>'
   professor: 'Moon-Jin Kang'
   field: anal
   term: 2026-2
