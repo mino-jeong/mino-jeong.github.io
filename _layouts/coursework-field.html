@@ -16,7 +16,7 @@ layout: default
     </p>
     
     {% for field in site.data.fields %}
-      {% assign courses_in_field = site.data.coursework | where: "field", field.id %}
+      {% assign courses_in_field = site.data.cw.coursework | where: "field", field.id %}
       
       {% if courses_in_field.size > 0 %}
         <div class="mb-5 row gx-5">
