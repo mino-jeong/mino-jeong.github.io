@@ -16,7 +16,7 @@ layout: default
     </p>
 
     {% for term in site.data.terms %}
-      {% assign courses_in_term = site.data.coursework | where: "term", term.id %}
+      {% assign courses_in_term = site.data.cw.coursework | where: "term", term.id %}
       
       {% if courses_in_term.size > 0 %}
         <div class="mb-5 row gx-5">
