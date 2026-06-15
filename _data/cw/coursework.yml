@@ -5,6 +5,7 @@
   grade: '<strong>(A–F)</strong>'
   professor: 'Sanghoon Baek'
   field: alg
+  topic: 'Algebra'
   term: 2026-2
   textbook: "Dummit and Foote's Abstract Algebra"
 
@@ -13,6 +14,7 @@
   grade: '<strong>(A–F)</strong>'
   professor: 'Jinhyung Park'
   field: alg
+  topic: 'Algebra'
   term: 2026-2
   textbook: "TBA"
 
@@ -21,6 +23,7 @@
   grade: '<strong>(A–F)</strong>'
   professor: 'Woojin Kim'
   field: geo
+  topic: 'Topology'
   term: 2026-2
   textbook: "TBA"
 
@@ -29,6 +32,7 @@
   grade: '<strong>(S/U)</strong>'
   professor: 'Jinhyung Park'
   field: other
+  topic: 'Other'
   term: 2026-2
   textbook: "TBA"
 
@@ -37,6 +41,7 @@
   grade: '<strong>(S/U)</strong>'
   professor: 'Jinhyun Park'
   field: alg
+  topic: 'Algebra'
   term: 2026-2
   textbook: "Oguiso's Theory of Algebraic Curves (originally written in Japanese; Korean translation by Sung Rak Choi)"
 
@@ -45,6 +50,7 @@
   grade: '<strong>(A–F)</strong>'
   professor: 'Jinhyun Park'
   field: alg
+  topic: 'Algebra'
   term: 2026-2
   textbook: "TBA"
 
@@ -53,6 +59,7 @@
   grade: '<strong>(A–F)</strong>'
   professor: 'Moon-Jin Kang'
   field: anal
+  topic: 'Analysis'
   term: 2026-2
   textbook: "TBA"
 
@@ -65,6 +72,7 @@
   grade: '<strong>TBD</strong>'
   professor: 'Sanghoon Baek'
   field: alg
+  topic: 'Algebra'
   term: 2026-1
   textbook: "Dummit and Foote's Abstract Algebra"
 
@@ -73,6 +81,7 @@
   grade: '<strong>TBD</strong>'
   professor: 'Hyungryul Baik'
   field: geo
+  topic: 'Topology'
   term: 2026-1
   textbook: "Munkres' Topology"
 
@@ -81,6 +90,7 @@
   grade: '<strong>TBD</strong>'
   professor: 'Andreas Holmsen'
   field: disc
+  topic: 'Combinatorics'
   term: 2026-1
   textbook: "Ziegler's Lectures on Polytopes"
 
@@ -93,6 +103,7 @@
   grade: '<strong>S</strong>'
   professor: 'Jiewon Park'
   field: geo
+  topic: 'Geometry'
   term: 2025-2A
   textbook: "Han and Lin's Elliptic Partial Differential Equations (ch. 1–2)<br>Evans' Partial Differential Equations (ch. 5)"
 
@@ -105,6 +116,7 @@
   grade: '<strong>A+</strong>'
   professor: 'Jiewon Park'
   field: other
+  topic: 'Basic'
   term: 2025-2
   textbook: "Kim's 25 Lectures for Undergraduate Calculus II"
 
@@ -113,6 +125,7 @@
   grade: '<strong>B0</strong>'
   professor: 'Andreas Holmsen'
   field: alg
+  topic: 'Algebra'
   term: 2025-2
   textbook: "Hoffman and Kunze's Linear Algebra (ch. 1.1–8.2)"
 
@@ -121,6 +134,7 @@
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
   field: anal
+  topic: 'Analysis'
   term: 2025-2
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 8–9)<br>Szilágyi, T. (1977). <i>Inverse function theorem - without assuming continuous differentaibility.</i>"
 
@@ -129,6 +143,7 @@
   grade: '<strong>P</strong>'
   professor: 'Jiewon Park'
   field: geo
+  topic: 'Geometry'
   term: 2025-2
   textbook: "do Carmo's Differential Geometry of Curves and Surfaces (ch. 1.1–4.5)"
 
@@ -141,6 +156,7 @@
   grade: '<strong>P</strong>'
   professor: 'Rui Wang'
   field: anal
+  topic: 'Analysis'
   term: 2025-1A
   textbook: "Priestley's Introduction to Complex Analysis (ch. 1–20)<br>Stein and Shakarchi's Complex Analysis (reference)"
 
@@ -153,6 +169,7 @@
   grade: '<strong>A-</strong>'
   professor: 'Andreas Holmsen'
   field: other
+  topic: 'Basic'
   term: 2025-1
   textbook: "Kim's 25 Lectures for Undergraduate Calculus I"
 
@@ -161,6 +178,7 @@
   grade: '<strong>B+</strong>'
   professor: 'Dongyoup Suh'
   field: other
+  topic: 'Basic'
   term: 2025-1
   textbook: "Anton's Contemporary Linear Algebra (ch. 1.1–8.6)"
 
@@ -169,6 +187,7 @@
   grade: '<strong>P</strong>'
   professor: 'Wansu Kim'
   field: alg
+  topic: 'Number Theory'
   term: 2025-1
   textbook: "Burton's Elementary Number Theory (ch. 1–9, 12–16)<br>Stein's Elementary Number Theory (ch. 2–3)"
 
@@ -177,5 +196,6 @@
   grade: '<strong>P</strong>'
   professor: 'Myeongjean Bae'
   field: anal
+  topic: 'Analysis'
   term: 2025-1
   textbook: "Rudin's Principles of Mathematical Analysis (ch. 1–7)"
