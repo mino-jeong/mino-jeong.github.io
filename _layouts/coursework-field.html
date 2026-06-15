@@ -15,7 +15,7 @@ layout: default
       </a>
     </p>
     
-    {% for field in site.data.cw.field %}
+    {% for field in site.data.cw.fields %}
       {% assign courses_in_field = site.data.cw.coursework | where: "field", field.id %}
       
       {% if courses_in_field.size > 0 %}
