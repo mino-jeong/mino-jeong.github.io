@@ -2,18 +2,21 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-5 align-items-center">
   
   <div class="col-md-6">
-    <p style="line-height: 1.25"><h2 class="fw-bold">Minho Jeong</h2></p>
-    <p style="line-height: 1.25"><h5 class="fw-bold">Second--year Undergraduate</h5></p>
-    <br>
+    <h2 class="fw-bold mb-1">Minho Jeong</h2>
+    <h5 class="fw-bold text-muted mb-4">Second-year Undergraduate</h5>
     {{ content }}
   </div>
 
   <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/home.png" alt="Home" width="100%">
-    <p class="text-muted mt-2" style="font-size: 0.9rem; text-align: right;">Source: The Centre for Applied Compositionality </p>
+    <figure class="mb-0">
+      <img src="{{ site.github.url }}/assets/img/home.png" alt="Category Theory Diagram" class="img-fluid rounded">
+      <figcaption class="text-muted mt-2 text-end" style="font-size: 0.85rem;">
+        Source: The Centre for Applied Compositionality
+      </figcaption>
+    </figure>
   </div>
   
 </div>
