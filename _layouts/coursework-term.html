@@ -15,120 +15,37 @@ layout: default
       </a>
     </p>
 
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Spring 2026</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-term.2026-1 %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small class="d-flex">
-                <span class="me-2">Textbook:</span>
-                <span class="d-block">
-                  {% assign books = section.textbook | split: "<br>" %}
-                  {% for book in books %}
-                    {{ book }}<br>
-                  {% endfor %}
-                </span>
-              </small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+    {% assign courses_by_term = site.data.coursework | group_by: "term_order" | sort: "name" | reverse %}
 
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Winter 2025</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-term.2025-2A %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small class="d-flex">
-                <span class="me-2">Textbook:</span>
-                <span class="d-block">
-                  {% assign books = section.textbook | split: "<br>" %}
-                  {% for book in books %}
-                    {{ book }}<br>
-                  {% endfor %}
-                </span>
-              </small>
-            </p>
-          {% endfor %}
+    {% for term_group in courses_by_term %}
+      {% assign current_term = term_group.items.first.term %}
+      
+      <div class="mb-5 row gx-5">
+        <div class="col-12">
+          <h4 class="border-bottom mb-4">{{ current_term }}</h4>
+          <div class="ps-md-4">
+            
+            {% assign sorted_courses = term_group.items | sort: "field_order" %}
+            {% for course in sorted_courses %}
+              <p class="fw-bold mb-2">{{ course.title }}</p>
+              <p class="mb-4">
+                {{ course.grade }} • {{ course.field }} • {{ course.professor }}<br>
+                <small class="d-flex">
+                  <span class="me-2">Textbook:</span>
+                  <span class="d-block">
+                    {% assign books = course.textbook | split: "<br>" %}
+                    {% for book in books %}
+                      {{ book }}<br>
+                    {% endfor %}
+                  </span>
+                </small>
+              </p>
+            {% endfor %}
+            
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Fall 2025</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-term.2025-2 %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small class="d-flex">
-                <span class="me-2">Textbook:</span>
-                <span class="d-block">
-                  {% assign books = section.textbook | split: "<br>" %}
-                  {% for book in books %}
-                    {{ book }}<br>
-                  {% endfor %}
-                </span>
-              </small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Summer 2025 <small>(UC Berkeley)</small></h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-term.2025-1A %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small class="d-flex">
-                <span class="me-2">Textbook:</span>
-                <span class="d-block">
-                  {% assign books = section.textbook | split: "<br>" %}
-                  {% for book in books %}
-                    {{ book }}<br>
-                  {% endfor %}
-                </span>
-              </small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-
-    <div class="mb-5 row gx-5">
-      <div class="col-12">
-        <h4 class="border-bottom mb-4">Spring 2025</h4>
-        <div class="ps-md-4">
-          {% for section in site.data.coursework-term.2025-1 %}
-            <p class="fw-bold mb-2">{{ section.title }}</p>
-            <p class="mb-4">
-              {{ section.description }}<br>
-              <small class="d-flex">
-                <span class="me-2">Textbook:</span>
-                <span class="d-block">
-                  {% assign books = section.textbook | split: "<br>" %}
-                  {% for book in books %}
-                    {{ book }}<br>
-                  {% endfor %}
-                </span>
-              </small>
-            </p>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+    {% endfor %}
 
   </div>
 </div>
