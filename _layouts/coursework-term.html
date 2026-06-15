@@ -19,7 +19,7 @@ DEBUG: {{ site.data.cw | inspect }}
       </a>
     </p>
 
-    {% for term in site.data.cw.term %}
+    {% for term in site.data.cw.terms %}
       {% assign courses_in_term = site.data.cw.coursework | where: "term", term.id %}
       
       {% if courses_in_term.size > 0 %}
