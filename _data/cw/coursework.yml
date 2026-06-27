@@ -69,30 +69,30 @@
 
 - title: 'MAS 311: Modern Algebra I'
   num: 311
-  grade: '<strong>TBD</strong>'
+  grade: '<strong>B0</strong>'
   professor: 'Sanghoon Baek'
   field: alg
   topic: 'Algebra'
   term: 2026-1
-  textbook: "Dummit and Foote's Abstract Algebra"
+  textbook: "Dummit and Foote's Abstract Algebra (ch. 1–7)"
 
 - title: 'MAS 331: Topology'
   num: 331
-  grade: '<strong>TBD</strong>'
+  grade: '<strong>C-</strong>'
   professor: 'Hyungryul Baik'
   field: geo
   topic: 'Topology'
   term: 2026-1
-  textbook: "Munkres' Topology"
+  textbook: "Munkres' Topology (ch. 2–4, 9, 13)"
 
 - title: 'MAS 583: Topics in Mathematics &lt;Advanced Discrete Geometry&gt;'
   num: 583
-  grade: '<strong>TBD</strong>'
+  grade: '<strong>A-</strong>'
   professor: 'Andreas Holmsen'
   field: disc
   topic: 'Combinatorics'
   term: 2026-1
-  textbook: "Ziegler's Lectures on Polytopes"
+  textbook: "Ziegler's Lectures on Polytopes (ch. 0–8)"
 
 # ========================================================================================================================================================================================================
 
