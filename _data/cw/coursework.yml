@@ -7,7 +7,7 @@
   field: alg
   topic: 'Algebra'
   term: 2026-2
-  textbook: "Dummit and Foote's Abstract Algebra"
+  textbook: "Dummit and Foote's Abstract Algebra (ch. 8–14)"
 
 - title: 'MAS 411: Introduction to Algebraic Geometry'
   num: 411
@@ -30,7 +30,7 @@
 - title: 'MAS 491: Introduction to Contemporary Mathematics'
   num: 491
   grade: '<strong>(S/U)</strong>'
-  professor: '(Department)'
+  professor: '(Staff)'
   field: other
   topic: 'Other'
   term: 2026-2
