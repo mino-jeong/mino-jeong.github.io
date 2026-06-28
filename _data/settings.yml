@@ -5,9 +5,6 @@ menu:
 acceptances:
 - {name: 'Acceptances', url: '/acceptances'}
 
-coursework:
-- {name: 'COURSEWORK', url: '/coursework-field'}
-
 contact:
 - {name: 'CONTACT', url: '/contact'}
 
