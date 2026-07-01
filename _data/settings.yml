@@ -8,7 +8,6 @@ acceptances:
 contact:
 - {name: 'CONTACT', url: '/contact'}
 
-
 kazakh:
 - {name: 'Pac-Man', url: '/pacman'}
 
