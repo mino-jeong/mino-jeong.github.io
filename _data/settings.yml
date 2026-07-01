@@ -9,7 +9,7 @@ contact:
 - {name: 'CONTACT', url: '/contact'}
 
 kazakh:
-- {name: 'Pac-Man', url: '/pacman'}
+- {name: 'Pac-Man', url: '/pacman.html'}
 
 social:
 - {icon: 'envelope', link: 'mailto:mjeong [at] kaist [dot] ac [dot] kr'}
