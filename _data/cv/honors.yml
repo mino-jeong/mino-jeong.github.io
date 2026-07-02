@@ -2,34 +2,6 @@
 #- title: '[award title]'
 #  description: '[description] ([MMM YYYY])'
 
-#- title: "Fall 2028 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Mar 2029)"
-
-#- title: "Spring 2028 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Aug 2028)"
-
-#- title: "Dean's List"
-#  description: "College of Natural Sciences, KAIST (Mar 2028)"
-
-#- title: "Fall 2027 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Mar 2028)"
-
-#- title: "Spring 2027 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Aug 2027)"
-
-#- title: "Fall 2026 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Mar 2027)"
-
-#- title: "Spring 2026 Dean's List"
-#  description: "Department of Mathematical Sciences, KAIST (Aug 2026)"
-
-- title: 'International Youth Math Challenge 2024'
-  description: '<strong>Bronze Honour</strong>, IYMC Team Coordinator & IYMC Program Coordinator (Feb 2025)<br>
-  <strong>Special Honour</strong>, IYMC Team Coordinator & IYMC Program Coordinator (Dec 2024)'
-
-- title: 'American Mathematics Competition 2024'
-  description: '<strong>Certificate of Excellence</strong>, Mathematical Association of America President & the AMC 10/12 Co Editor in Chief (Dec 2024)'
-
 - title: '2024 Talent Award of Korea'
   description: 'Deputy Prime Minister and Minister of Education of the Republic of Korea (Dec 2024)'
 
@@ -38,13 +10,3 @@
 
 - title: '20th Busan Future Scientist Award'
   description: '<strong>Grand Prize</strong>, Co-Chairmen of Federation of Busan Science and Technology (Dec 2024)'
-
-- title: 'International Astronomy and Astrophysics Competition 2024'
-  description: '<strong>Silver Honour</strong>, IAAC Team Coordinator & IAAC Program Coordinator (Jul 2024)<br>
-  <strong>Special Honour</strong>, IAAC Team Coordinator & IAAC Program Coordinator (May 2024)'
-
-- title: "Childfund Korea's Plaque of Appreciation"
-  description: 'Executive Chairman of Childfund Korea (May 2024)'
-
-- title: 'American Mathematics Competition 2022'
-  description: '<strong>Certificate of Distinction</strong>, Mathematical Association of America President & the AMC 10/12 Co Editor in Chief (Dec 2022)'
