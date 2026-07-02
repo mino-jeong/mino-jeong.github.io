@@ -51,7 +51,7 @@ layout: default
     <!--- 4. Honors --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Honors</h4>
+        <h4 class="border-bottom">Selected Honors</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.honors %}
@@ -89,20 +89,18 @@ layout: default
     </div>
     {% endcomment %}
 
-    {% comment %}
-    <!--- 7A. Research Experience --->
+    <!--- 7A. Directed Readings --->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4 class="border-bottom">Research Experiences</h4>
+        <h4 class="border-bottom">Directed Readings</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.research %}
+        {% for section in site.data.cv.reading %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
-    {% endcomment %}
 
     <!--- 7B. High School Research --->
     <div class="row g-5 mb-5">
