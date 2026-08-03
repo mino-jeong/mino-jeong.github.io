@@ -22,9 +22,13 @@ jobs:
 
       - name: Build Jekyll Site
         run: |
+          echo "url: \"http://mathsci.kaist.ac.kr\"" >> _config.yml
           echo "baseurl: \"/~mjeong\"" >> _config.yml
+          echo "permalink: pretty" >> _config.yml
           bundle exec jekyll build
-          
+
+          find _site -type f -name "*.html" -exec sed -i 's|https://mino-jeong.github.io|http://mathsci.kaist.ac.kr/~mjeong|g' {} +
+
           find _site -type f -name "*.html" -exec sed -i 's|href="/|href="/~mjeong/|g' {} +
           find _site -type f -name "*.html" -exec sed -i 's|src="/|src="/~mjeong/|g' {} +
           find _site -type f -name "*.html" -exec sed -i 's|/~mjeong//|//|g' {} +
