@@ -33,7 +33,7 @@ layout: default
                 <p class="mb-4">
                   {{ course.grade }} • {{ course.topic | default: matched_field.title }} • {{ course.professor }}<br>
                   <small class="d-flex">
-                    <span class="me-2">Textbook:</span>
+                    <span class="me-2">Text:</span>
                     <span class="d-block">
                       {% assign books = course.textbook | split: "<br>" %}
                       {% for book in books %}
