@@ -25,7 +25,7 @@
   field: geo
   topic: 'Topology'
   term: 2026-2
-  textbook: "TBA"
+  textbook: "Lecture Notes"
 
 - title: 'MAS 491: Introduction to Contemporary Mathematics'
   num: 491
@@ -34,7 +34,7 @@
   field: other
   topic: 'Other'
   term: 2026-2
-  textbook: "None"
+  textbook: "Faculty Presentation Materials"
 
 - title: 'MAS 495: Individual Study (Algebraic Curves)'
   num: 495
@@ -43,7 +43,7 @@
   field: alg
   topic: 'Algebra'
   term: 2026-2
-  textbook: "Oguiso's Theory of Algebraic Curves (originally written in Japanese; Korean translation by Sung Rak Choi)"
+  textbook: "Oguiso's Theory of Algebraic Curves [KR]"
 
 - title: 'MAS 513: Homological Algebra'
   num: 513
@@ -52,7 +52,7 @@
   field: alg
   topic: 'Algebra'
   term: 2026-2
-  textbook: "TBA"
+  textbook: "Lecture Notes"
 
 - title: 'MAS 541: Complex Function Theory'
   num: 541
@@ -61,7 +61,7 @@
   field: anal
   topic: 'Analysis'
   term: 2026-2
-  textbook: "TBA"
+  textbook: "Lecture Notes"
 
 # ========================================================================================================================================================================================================
 
