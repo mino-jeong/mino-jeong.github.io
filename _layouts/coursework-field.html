@@ -7,11 +7,10 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Coursework in Mathematics</h3>
-
-    <p class="mb-4 text-end">
-      <a href="/coursework-term" style="color: #1487C8 !important; text-decoration: none; font-weight: 600;">View by Term &rarr;</a>
-    </p>
+    <div class="d-flex justify-content-between align-items-center border-bottom pb-3 mb-5">
+      <h3 class="fw-bold mb-0">Coursework in Mathematics</h3>
+      <a href="/coursework-term" style="display: inline-block; color: #1487C8 !important; border: 1px solid #1487C8; padding: 4px 12px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9em;">View by Term &rarr;</a>
+    </div>
     
     {% for field in site.data.cw.fields %}
       {% assign courses_in_field = site.data.cw.coursework | where: "field", field.id %}
