@@ -28,7 +28,7 @@ layout: default
                 
                 <p class="fw-bold mb-2">{{ course.title }}</p>
                 <p class="mb-4">
-                  {{ course.grade }} • {{ course.topic | default: matched_field.title }} • {{ course.professor }}<br>
+                  {{ course.topic | default: matched_field.title }} • {{ course.professor }}<br>
                   <small class="d-flex">
                     <span class="me-2">Text:</span>
                     <span class="d-block">
