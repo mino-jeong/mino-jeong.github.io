@@ -2,7 +2,7 @@
 
 - title: 'MAS 312: Modern Algebra II'
   num: 312
-  grade: '<strong>(A–F)</strong>'
+  grade: '<strong>IP (A–F)</strong>'
   professor: 'Sanghoon Baek'
   field: alg
   topic: 'Algebra'
@@ -11,7 +11,7 @@
 
 - title: 'MAS 411: Introduction to Algebraic Geometry'
   num: 411
-  grade: '<strong>(A–F)</strong>'
+  grade: '<strong>IP (A–F)</strong>'
   professor: 'Jinhyung Park'
   field: alg
   topic: 'Algebra'
@@ -20,7 +20,7 @@
 
 - title: 'MAS 430: Combinatorial Topology'
   num: 430
-  grade: '<strong>(A–F)</strong>'
+  grade: '<strong>IP (A–F)</strong>'
   professor: 'Woojin Kim'
   field: geo
   topic: 'Topology'
@@ -29,7 +29,7 @@
 
 - title: 'MAS 491: Introduction to Contemporary Mathematics'
   num: 491
-  grade: '<strong>(S/U)</strong>'
+  grade: '<strong>IP (S/U)</strong>'
   professor: 'Faculty'
   field: other
   topic: 'Other'
@@ -38,7 +38,7 @@
 
 - title: 'MAS 495: Individual Study (Algebraic Curves)'
   num: 495
-  grade: '<strong>(S/U)</strong>'
+  grade: '<strong>IP (S/U)</strong>'
   professor: 'Jinhyun Park'
   field: alg
   topic: 'Algebra'
@@ -47,7 +47,7 @@
 
 - title: 'MAS 513: Homological Algebra'
   num: 513
-  grade: '<strong>(A–F)</strong>'
+  grade: '<strong>IP (A–F)</strong>'
   professor: 'Jinhyun Park'
   field: alg
   topic: 'Algebra'
@@ -56,7 +56,7 @@
 
 - title: 'MAS 541: Complex Function Theory'
   num: 541
-  grade: '<strong>(A–F)</strong>'
+  grade: '<strong>IP (A–F)</strong>'
   professor: 'Moon-Jin Kang'
   field: anal
   topic: 'Analysis'
