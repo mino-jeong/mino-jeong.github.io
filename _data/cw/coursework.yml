@@ -52,7 +52,7 @@
   field: alg
   topic: 'Algebra'
   term: 2026-2
-  textbook: "Lecture Notes"
+  textbook: "Lecture Notes (with references to books by Weibel and Manin)"
 
 - title: 'MAS 541: Complex Function Theory'
   num: 541
@@ -61,7 +61,7 @@
   field: anal
   topic: 'Analysis'
   term: 2026-2
-  textbook: "Lecture Notes"
+  textbook: "Lecture Notes (with references to books by Stein & Shakarchi, Brown & Churchill, and Conway)"
 
 # ========================================================================================================================================================================================================
 
