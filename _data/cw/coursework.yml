@@ -1,3 +1,43 @@
+# Spring 2027 (Tentative)
+
+- title: 'MATH 250B: Commutative Algebra'
+  num: 1250.2
+  grade: '<strong>(GRD)</strong>'
+  professor: 'David Eisenbud'
+  field: alg
+  topic: 'Algebra'
+  term: 2027-1
+  textbook: "(To be determined)"
+
+- title: 'MATH 252: Representation Theory'
+  num: 1252
+  grade: '<strong>(GRD)</strong>'
+  professor: 'Vera Serganova'
+  field: alg
+  topic: 'Algebra'
+  term: 2027-1
+  textbook: "(To be determined)"
+
+- title: 'MATH 256B: Algebraic Geometry'
+  num: 1256.2
+  grade: '<strong>(GRD)</strong>'
+  professor: 'Mark Haiman'
+  field: alg
+  topic: 'Algebra'
+  term: 2027-1
+  textbook: "(To be determined)"
+
+- title: 'MATH 274: Introduction to Soergel Bimodules'
+  num: 1274
+  grade: '<strong>(GRD)</strong>'
+  professor: 'Christian Gaetz'
+  field: alg
+  topic: 'Algebra'
+  term: 2027-1
+  textbook: "(To be determined)"
+
+# ========================================================================================================================================================================================================
+
 # Fall 2026
 
 - title: 'MAS 312: Modern Algebra II'
